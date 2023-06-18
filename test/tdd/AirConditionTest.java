@@ -1,7 +1,6 @@
 package tdd;
 
 import org.testng.annotations.Test;
-import tdd.AirCondition;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

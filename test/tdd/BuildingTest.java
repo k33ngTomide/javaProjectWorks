@@ -28,7 +28,8 @@ public class BuildingTest {
         kingPalace.setHasWifi(true);
         assertTrue(kingPalace.hasWifi());
 
-        //kingPalace.power();
-        //assertTrue(kingPalace.getWifi());
+        Wifi.power();
+        assertTrue(kingPalace.getIsOn());
+
     }
 }

@@ -1,10 +1,14 @@
 package tdd;
 
 public class Wifi {
-    private boolean isOn;
+    private static boolean isOn;
 
-    public boolean power(){
-        isOn = !this.isOn;
+    public static void power(){
+        isOn = !isOn;
+    }
+
+    public static boolean getIsOn() {
         return isOn;
     }
+
 }
