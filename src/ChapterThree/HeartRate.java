@@ -44,4 +44,6 @@ public class HeartRate {
         target = targetHeart1 + " - " + targetHeart2;
         return target;
     }
+
+
 }

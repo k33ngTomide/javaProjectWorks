@@ -2,15 +2,15 @@ package tdd;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.testng.annotations.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import static org.junit.jupiter.api.Assertions.*;
 import static org.testng.AssertJUnit.assertFalse;
 
 public class CalculatorTest {
     @Test
     public void canCalculatorBeCreatedTest() {
-        Calculator casio;
-        casio = new Calculator();
+        Calculator casio = new Calculator();
+        assertNotNull(casio);
     }
     @Test
     public void canBeOnTest(){
@@ -47,7 +47,7 @@ public class CalculatorTest {
 
         casio.subtract(11, 4);
         assertEquals(7, casio.getResult());
-
+        
     }
 
     @Test
