@@ -1,4 +1,4 @@
-package tdd;
+package Chapter3Tdd;
 
 import ChapterThree.HeartRate;
 import org.testng.annotations.Test;

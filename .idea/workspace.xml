@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/AreaOfCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/ArithmeticCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/DivisibleByThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/IndividualDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/LargestAndSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/Multiples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/NegativeIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/SeparatingDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/TableOfSquaresAndCubes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterTwo/ValueOfCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/WristWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/ChairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/ClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/SortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/WristWatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterThree/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterThree/HealthProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterThree/PetrolPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/HealthProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/PetrolPurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaProjectWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaProjectWorks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterThree/HeartRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterThree/HeartRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/HeartRateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter3Tdd/HeartRateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +64,17 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SortTest.canNumbersBeSortedTwoTest">
-    <configuration name="SortTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CarTest">
+    <configuration name="CarTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="Chapter3Tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
+      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -95,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canNumbersBeSorted" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.canCarPriceBeSetToNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="Chapter3Tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="METHOD_NAME" value="canNumbersBeSorted" />
+      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
+      <option name="METHOD_NAME" value="canCarPriceBeSetToNegativeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canNumbersBeSortedOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.canSecondCarPriceBeSetToNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="Chapter3Tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="METHOD_NAME" value="canNumbersBeSortedOneTest" />
+      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
+      <option name="METHOD_NAME" value="canSecondCarPriceBeSetToNegativeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canNumbersBeSortedTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.carConstructorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="Chapter3Tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="METHOD_NAME" value="canNumbersBeSortedTest" />
+      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
+      <option name="METHOD_NAME" value="carConstructorTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.canNumbersBeSortedTwoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.secondCarConstructorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="Chapter3Tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.SortTest" />
-      <option name="METHOD_NAME" value="canNumbersBeSortedTwoTest" />
+      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
+      <option name="METHOD_NAME" value="secondCarConstructorTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SortTest.canNumbersBeSortedTwoTest" />
-        <item itemvalue="TestNG.SortTest" />
-        <item itemvalue="TestNG.SortTest.canNumbersBeSortedTest" />
-        <item itemvalue="TestNG.SortTest.canNumbersBeSortedOneTest" />
-        <item itemvalue="TestNG.SortTest.canNumbersBeSorted" />
+        <item itemvalue="TestNG.CarTest" />
+        <item itemvalue="TestNG.CarTest.canSecondCarPriceBeSetToNegativeTest" />
+        <item itemvalue="TestNG.CarTest.canCarPriceBeSetToNegativeTest" />
+        <item itemvalue="TestNG.CarTest.secondCarConstructorTest" />
+        <item itemvalue="TestNG.CarTest.carConstructorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +183,15 @@
       <workItem from="1687179751012" duration="1852000" />
       <workItem from="1687182030323" duration="2518000" />
       <workItem from="1687198601945" duration="7936000" />
-      <workItem from="1687335346523" duration="26758000" />
+      <workItem from="1687335346523" duration="27865000" />
+      <workItem from="1687450504895" duration="469000" />
+      <workItem from="1687466564111" duration="880000" />
+      <workItem from="1687505309073" duration="409000" />
+      <workItem from="1687512505293" duration="2405000" />
+      <workItem from="1687626099585" duration="4000" />
+      <workItem from="1687629285944" duration="188000" />
+      <workItem from="1687709098394" duration="32000" />
+      <workItem from="1687782079097" duration="14232000" />
     </task>
     <servers />
   </component>
