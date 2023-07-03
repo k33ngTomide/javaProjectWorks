@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChapterThree/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterThree/HealthProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterThree/PetrolPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/HealthProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter3Tdd/PetrolPurchaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/NokiaPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/StraightTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFour/CreditLimitCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFour/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/AssignGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/FactorialCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/CreditLimitCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/FactorialCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/FactorialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/HeartRateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter3Tdd/HeartRateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterThree/HealthProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterThree/HealthProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter3Tdd/HealthProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter3Tdd/HealthProfileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,35 +68,31 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CarTest">
-    <configuration name="CarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FactorialCalculator">
+    <configuration name="FactorialCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.FactorialCalculator" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3Tdd.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canCarPriceBeSetToNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialCalculatorTest.testForNegativeValue" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3Tdd.*" />
+          <option name="PATTERN" value="Chapter4tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
-      <option name="METHOD_NAME" value="canCarPriceBeSetToNegativeTest" />
+      <option name="PACKAGE_NAME" value="Chapter4tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.FactorialCalculatorTest" />
+      <option name="METHOD_NAME" value="testForNegativeValue" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.canSecondCarPriceBeSetToNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialCalculatorTest.testThatFactorialWorks_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3Tdd.*" />
+          <option name="PATTERN" value="Chapter4tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
-      <option name="METHOD_NAME" value="canSecondCarPriceBeSetToNegativeTest" />
+      <option name="PACKAGE_NAME" value="Chapter4tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.FactorialCalculatorTest" />
+      <option name="METHOD_NAME" value="testThatFactorialWorks_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.carConstructorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialCalculatorTest.testThatFactorialWorks_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3Tdd.*" />
+          <option name="PATTERN" value="Chapter4tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
-      <option name="METHOD_NAME" value="carConstructorTest" />
+      <option name="PACKAGE_NAME" value="Chapter4tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.FactorialCalculatorTest" />
+      <option name="METHOD_NAME" value="testThatFactorialWorks_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.secondCarConstructorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FactorialCalculatorTest.testThatFactorialWorks_3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter3Tdd.*" />
+          <option name="PATTERN" value="Chapter4tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter3Tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3Tdd.CarTest" />
-      <option name="METHOD_NAME" value="secondCarConstructorTest" />
+      <option name="PACKAGE_NAME" value="Chapter4tdd" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.FactorialCalculatorTest" />
+      <option name="METHOD_NAME" value="testThatFactorialWorks_3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CarTest" />
-        <item itemvalue="TestNG.CarTest.canSecondCarPriceBeSetToNegativeTest" />
-        <item itemvalue="TestNG.CarTest.canCarPriceBeSetToNegativeTest" />
-        <item itemvalue="TestNG.CarTest.secondCarConstructorTest" />
-        <item itemvalue="TestNG.CarTest.carConstructorTest" />
+        <item itemvalue="Application.FactorialCalculator" />
+        <item itemvalue="TestNG.FactorialCalculatorTest.testForNegativeValue" />
+        <item itemvalue="TestNG.FactorialCalculatorTest.testThatFactorialWorks_3" />
+        <item itemvalue="TestNG.FactorialCalculatorTest.testThatFactorialWorks_2" />
+        <item itemvalue="TestNG.FactorialCalculatorTest.testThatFactorialWorks_1" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,14 @@
       <workItem from="1687626099585" duration="4000" />
       <workItem from="1687629285944" duration="188000" />
       <workItem from="1687709098394" duration="32000" />
-      <workItem from="1687782079097" duration="14232000" />
+      <workItem from="1687782079097" duration="16112000" />
+      <workItem from="1687848050077" duration="4544000" />
+      <workItem from="1687973576116" duration="2420000" />
+      <workItem from="1688103535587" duration="12383000" />
+      <workItem from="1688142279498" duration="5371000" />
+      <workItem from="1688323067322" duration="618000" />
+      <workItem from="1688398183165" duration="8499000" />
+      <workItem from="1688418892289" duration="8150000" />
     </task>
     <servers />
   </component>

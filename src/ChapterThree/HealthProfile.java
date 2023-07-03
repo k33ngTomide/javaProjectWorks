@@ -9,8 +9,9 @@ public class HealthProfile {
     private String gender;
     private double height;
     private double weight;
-    private Date dateOfBirth;
-    public HealthProfile(String firstname, String lastname, String gender, double height, double weight, Date dateOfBirth){
+    private String dateOfBirth;
+    public HealthProfile(String firstname, String lastname, String gender,
+                         double height, double weight, String dateOfBirth){
         this.firstname = firstname;
         this.lastname = lastname;
         this.gender = gender;
@@ -59,11 +60,11 @@ public class HealthProfile {
         this.weight = weight;
     }
 
-    public Date getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
-
-    public void setDateOfBirth(Date dateOfBirth) {
+    public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
 }
