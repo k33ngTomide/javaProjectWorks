@@ -20,12 +20,8 @@ public class Factorial {
         }
         return total;
 
-//        int less = number - 1;
-//        for( int counter = less ; counter > 1; counter--){
-//            number= number * counter;
-//        }
-//        return number;
-//
+
+
     }
 
     public void terminate(){
