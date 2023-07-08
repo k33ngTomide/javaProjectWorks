@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 
 public class Exponential {
-    private static Scanner keyboardInput = new Scanner(System.in);
-    private static Exponential calc = new Exponential();
     public static void main(String[] args) {
+        Scanner keyboardInput = new Scanner(System.in);
+        Exponential calc = new Exponential();
+
+
         System.out.print("Enter the number of terms: ");
         int userEntry = keyboardInput.nextInt();
         System.out.println(calc.expo(userEntry));

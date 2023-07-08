@@ -3,8 +3,7 @@ package ChapterFive;
 import java.util.Scanner;
 
 public class DivisibleBy3 {
-    private static Scanner southEast = new Scanner(System.in);
-    private static DivisibleBy3 uloma = new DivisibleBy3();
+
     public int divisionOfThree(int number) {
 
         int additionOfNumbers = 0;
@@ -15,6 +14,9 @@ public class DivisibleBy3 {
     }
 
     public static void main(String[] args) {
+
+        Scanner southEast = new Scanner(System.in);
+        DivisibleBy3 uloma = new DivisibleBy3();
 
         System.out.print("Enter the number: ");
         int user = southEast.nextInt();

@@ -14,9 +14,7 @@ public class PositiveNumberAndNegativeNumber {
         System.out.print("Enter an integer, the input ends if it is 0:  ");
         int integer= scan.nextInt();
 
-        for ( ; ; counter++ ){
-
-            if (integer == 0) break;
+        while(integer != 0){
 
             if (integer > 0) positiveNumber +=1;
             if (integer < 0) negativeNumber += 1;
