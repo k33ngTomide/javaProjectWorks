@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChapterFour/Exponential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterSix/ComputerAssistedInstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/MethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/TriangleOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/ExponentialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFive/Diamond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFive/DivisibleBy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFive/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/EchoFourToEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/EchoFourToEightMultiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/EvenNumberToTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/FourAndEight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/MultiplesOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/OddNumbersToTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/OneToTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/SumOfAllMultiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/SumOfFourMultipleAndEightMultiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/AllClassWork_7_7_2023.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/CountPositiveAndNegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Loading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/PositiveNumberAndNegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/SimpleCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignments/NokiaPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/NokiaPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterSix/ComputerAssistedInstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSix/ComputerAssistedInstruction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +70,23 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ChapterFive" />
       <recent name="tdd" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tdd" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ClassWork" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Exponential">
-    <configuration name="ComputerAssistedInstruction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterSix.ComputerAssistedInstruction" />
+  <component name="RunManager" selected="Application.AllClassWork_7_7_2023">
+    <configuration name="AllClassWork_7_7_2023" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.AllClassWork_7_7_2023" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterSix.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exponential" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterFour.Exponential" />
+    <configuration name="CountPositiveAndNegativeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.CountPositiveAndNegativeNumber" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterFour.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,60 +107,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExponentialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EchoFourToEightMultiples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassWork.EchoFourToEightMultiples" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4tdd.*" />
+          <option name="PATTERN" value="ClassWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter4tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.ExponentialTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExponentialTest.testAnswerOfExponential" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberAndNegativeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PositiveNumberAndNegativeNumber" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4tdd.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter4tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.ExponentialTest" />
-      <option name="METHOD_NAME" value="testAnswerOfExponential" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExponentialTest.testIfExponentialCanTake_Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumOfFourMultipleAndEightMultiples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassWork.SumOfFourMultipleAndEightMultiples" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4tdd.*" />
+          <option name="PATTERN" value="ClassWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter4tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.ExponentialTest" />
-      <option name="METHOD_NAME" value="testIfExponentialCanTake_Negative" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exponential" />
-        <item itemvalue="JUnit.ExponentialTest.testIfExponentialCanTake_Negative" />
-        <item itemvalue="JUnit.ExponentialTest.testAnswerOfExponential" />
-        <item itemvalue="JUnit.ExponentialTest" />
-        <item itemvalue="Application.ComputerAssistedInstruction" />
+        <item itemvalue="Application.AllClassWork_7_7_2023" />
+        <item itemvalue="Application.PositiveNumberAndNegativeNumber" />
+        <item itemvalue="Application.CountPositiveAndNegativeNumber" />
+        <item itemvalue="Application.SumOfFourMultipleAndEightMultiples" />
+        <item itemvalue="Application.EchoFourToEightMultiples" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +195,11 @@
       <workItem from="1688481147672" duration="2096000" />
       <workItem from="1688501655795" duration="4138000" />
       <workItem from="1688509447265" duration="6294000" />
-      <workItem from="1688540959621" duration="5354000" />
+      <workItem from="1688540959621" duration="20925000" />
+      <workItem from="1688626180711" duration="14762000" />
+      <workItem from="1688725582383" duration="9360000" />
+      <workItem from="1688762235167" duration="8911000" />
+      <workItem from="1688799839181" duration="968000" />
     </task>
     <servers />
   </component>

@@ -818,6 +818,6 @@ public class NokiaPhone {
     }
 
     private static void off() {
-
+        System.exit(1);
     }
 }
