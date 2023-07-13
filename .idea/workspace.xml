@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChapterFour/GasMillage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterSix/VaryingTheTypeOfProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/NokiaPhones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/GasMillageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tdd/NokiaPhonesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFive/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterSeven/ComputeDeviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/CelsiusToFahrenheit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/CompareCosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/CurrencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/FinancialApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/FutureInvestmentValueCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/QuadraticEquations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/SeparatingIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/SumDigitsInInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/TableOfSquaresAndCubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/TabularOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/TimeDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/VolumeOfCylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheTasks/pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tdd/CurrencyExchangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFive/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFive/DivisibleBy3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/Exponential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/Exponential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercises/PositiveNumberAndNegativeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/PositiveNumberAndNegativeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercises/SimpleCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/SimpleCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterFive/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheTasks/DivisibleBy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterFive/StudentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheTasks/StudentGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ChapterFour" />
@@ -73,13 +84,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GasMillageTest.testTotalMilesPerTotalGallons">
-    <configuration name="GasMillage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterFour.GasMillage" />
+  <component name="RunManager" selected="Application.ComputeDeviation">
+    <configuration name="CompareCosts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheTasks.CompareCosts" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterFour.*" />
+          <option name="PATTERN" value="TheTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Loading" />
+    <configuration name="ComputeDeviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChapterSeven.ComputeDeviation" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="ChapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,43 +111,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GasMillageTest.testMileAge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheTasks.CurrencyExchange" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4tdd.*" />
+          <option name="PATTERN" value="TheTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter4tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.GasMillageTest" />
-      <option name="METHOD_NAME" value="testMileAge" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GasMillageTest.testTotalMilesPerTotalGallons" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheTasks.operators" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter4tdd.*" />
+          <option name="PATTERN" value="TheTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter4tdd" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4tdd.GasMillageTest" />
-      <option name="METHOD_NAME" value="testTotalMilesPerTotalGallons" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NokiaPhonesTest.testNokiaPhoneTone" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyExchangeTest.test_RMB_currencyExchange_To_USD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -145,22 +146,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.NokiaPhonesTest" />
-      <option name="METHOD_NAME" value="testNokiaPhoneTone" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="tdd.CurrencyExchangeTest" />
+      <option name="METHOD_NAME" value="test_RMB_currencyExchange_To_USD" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GasMillageTest.testTotalMilesPerTotalGallons" />
-        <item itemvalue="Application.GasMillage" />
-        <item itemvalue="TestNG.GasMillageTest.testMileAge" />
-        <item itemvalue="Application.Loading" />
-        <item itemvalue="TestNG.NokiaPhonesTest.testNokiaPhoneTone" />
+        <item itemvalue="Application.ComputeDeviation" />
+        <item itemvalue="Application.operators" />
+        <item itemvalue="Application.CompareCosts" />
+        <item itemvalue="Application.CurrencyExchange" />
+        <item itemvalue="JUnit.CurrencyExchangeTest.test_RMB_currencyExchange_To_USD" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +208,15 @@
       <workItem from="1688762235167" duration="8911000" />
       <workItem from="1688799839181" duration="13403000" />
       <workItem from="1688837124423" duration="7760000" />
+      <workItem from="1688853840914" duration="7319000" />
+      <workItem from="1688897591161" duration="9626000" />
+      <workItem from="1688941086183" duration="599000" />
+      <workItem from="1688976415021" duration="455000" />
+      <workItem from="1688985123526" duration="21740000" />
+      <workItem from="1689073432185" duration="1164000" />
+      <workItem from="1689107370968" duration="5398000" />
+      <workItem from="1689116531230" duration="2870000" />
+      <workItem from="1689146168706" duration="6404000" />
     </task>
     <servers />
   </component>
