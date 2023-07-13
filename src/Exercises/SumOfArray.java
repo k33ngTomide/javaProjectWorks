@@ -24,5 +24,6 @@ public class SumOfArray {
         System.out.println("The total of the first Array is: " + total1);
         System.out.println("The total of the second Array is: " + total2);
         System.out.println("The total of the third Array is: " + total3);
+
     }
 }
