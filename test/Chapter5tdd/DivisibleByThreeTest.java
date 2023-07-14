@@ -1,6 +1,6 @@
 package Chapter5tdd;
 
-import TheTasks.DivisibleBy3;
+import OurPracticeTasks.DivisibleBy3;
 import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

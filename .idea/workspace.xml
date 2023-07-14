@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ChapterFour/WorldPopulationGrowth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayOfTenElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageAndTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageOfSumOfEvenScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageOfTenValidScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/CollectTenValidScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/PrintEvenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/RestartCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/SumTenValidNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/TenScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/WorldPopulationGrowthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercises/SumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/SumOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/CelsiusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CelsiusToFahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/CompareCosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CompareCosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CurrencyExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/DivisibleBy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/FinancialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/FinancialApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/FutureInvestmentValueCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/FutureInvestmentValueCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/QuadraticEquations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/QuadraticEquations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/SeparatingIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SeparatingIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/StudentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/StudentGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/SumDigitsInInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SumDigitsInInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/TableOfSquaresAndCubes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TableOfSquaresAndCubes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TabularOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/TimeDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TimeDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/VolumeOfCylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/VolumeOfCylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheTasks/pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/CurrencyExchangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/CurrencyExchangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +96,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfArray">
-    <configuration name="CompareCosts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheTasks.CompareCosts" />
+  <component name="RunManager" selected="Application.ArrayWithEven">
+    <configuration name="ArrayOfTenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassTasks.ArrayOfTenElement" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TheTasks.*" />
+          <option name="PATTERN" value="ClassTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeDeviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterSeven.ComputeDeviation" />
+    <configuration name="ArrayWithEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassTasks.ArrayWithEven" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterSeven.*" />
+          <option name="PATTERN" value="ClassTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,21 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheTasks.CurrencyExchange" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TheTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.SumOfArray" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Practice" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheTasks.operators" />
+    <configuration name="PrintEvenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassTasks.PrintEvenSum" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TheTasks.*" />
+          <option name="PATTERN" value="ClassTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestartCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassTasks.RestartCollection" />
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfArray" />
-        <item itemvalue="Application.ComputeDeviation" />
-        <item itemvalue="Application.operators" />
-        <item itemvalue="Application.CompareCosts" />
-        <item itemvalue="Application.CurrencyExchange" />
+        <item itemvalue="Application.ArrayWithEven" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.ArrayOfTenElement" />
+        <item itemvalue="Application.RestartCollection" />
+        <item itemvalue="Application.PrintEvenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +228,10 @@
       <workItem from="1689146168706" duration="6404000" />
       <workItem from="1689223560079" duration="1371000" />
       <workItem from="1689261244405" duration="204000" />
+      <workItem from="1689274053642" duration="539000" />
+      <workItem from="1689281803563" duration="7146000" />
+      <workItem from="1689289378590" duration="198000" />
+      <workItem from="1689330423960" duration="12888000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,4 @@
-package TheTasks;
-
-import java.util.Scanner;
+package OurPracticeTasks;
 
 public class TableOfSquaresAndCubes {
     public static void main(String[] args) {

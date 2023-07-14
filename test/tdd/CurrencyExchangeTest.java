@@ -1,7 +1,7 @@
 package tdd;
 
 import org.junit.jupiter.api.BeforeEach;
-import TheTasks.CurrencyExchange;
+import OurPracticeTasks.CurrencyExchange;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,6 +1,5 @@
-package TheTasks;
+package OurPracticeTasks;
 
-import java.sql.Time;
 import java.util.Scanner;
 
 public class TimeDisplay {

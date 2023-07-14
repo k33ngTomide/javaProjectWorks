@@ -1,4 +1,4 @@
-package TheTasks;
+package OurPracticeTasks;
 
 public class pyramid {
 
