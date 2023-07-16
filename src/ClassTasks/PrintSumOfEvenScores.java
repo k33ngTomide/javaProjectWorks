@@ -11,6 +11,7 @@ public class PrintSumOfEvenScores {
 
         double evenTotal = 0;
         for(int counter = 0; counter < 10; counter++ ){
+
             System.out.print("Enter Student score: ");
             double score = scan.nextDouble();
             scores.append(score).append(" ");

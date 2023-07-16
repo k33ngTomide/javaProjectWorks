@@ -5,39 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChapterFour/WorldPopulationGrowth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayOfTenElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageAndTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageOfSumOfEvenScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/AverageOfTenValidScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/CollectTenValidScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/PrintEvenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/RestartCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/SumTenValidNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/TenScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter4tdd/WorldPopulationGrowthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ArrayOfDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ConcatTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/EvenPositionElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/LargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/OddPositionElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/RunningTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/SumOfNumbersInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayOfCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/ArrayOfDigitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/CheckElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/CheckPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/ConcatTwoListsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/EvenPositionElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/LargestElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/OddPositionElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/ReverseListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/RunningTotalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/SumOfNumbersInListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/CelsiusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CelsiusToFahrenheit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/CompareCosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CompareCosts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/CurrencyExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/DivisibleBy3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/FinancialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/FinancialApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/FutureInvestmentValueCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/FutureInvestmentValueCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/QuadraticEquations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/QuadraticEquations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/SeparatingIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SeparatingIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/StudentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/StudentGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/SumDigitsInInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SumDigitsInInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/TableOfSquaresAndCubes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TableOfSquaresAndCubes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TabularOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/TimeDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/TimeDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/VolumeOfCylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/VolumeOfCylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/operators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheTasks/pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OurPracticeTasks/pyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter5tdd/DivisibleByThreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/CurrencyExchangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/CurrencyExchangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/ComputeDeviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/ComputeDeviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -80,6 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -96,79 +95,98 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayWithEven">
-    <configuration name="ArrayOfTenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassTasks.ArrayOfTenElement" />
+  <component name="RunManager" selected="TestNG.AlternatingListTest.testForAlternate">
+    <configuration name="ArrayOfDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTasks.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDigitsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayWithEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassTasks.ArrayWithEven" />
+    <configuration name="ArrayOfDigitsTest.testThatFunctionReturnsListOfDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTasks.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDigitsTest" />
+      <option name="METHOD_NAME" value="testThatFunctionReturnsListOfDigit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Practice" />
+    <configuration name="AlternatingListTest.testForAlternate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.AlternatingListTest" />
+      <option name="METHOD_NAME" value="testForAlternate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintEvenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassTasks.PrintEvenSum" />
+    <configuration name="ConcatTwoListsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTasks.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ConcatTwoListsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestartCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassTasks.RestartCollection" />
+    <configuration name="ConcatTwoListsTest.testThatTwoListCanBeConcatenated_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTasks.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ConcatTwoListsTest" />
+      <option name="METHOD_NAME" value="testThatTwoListCanBeConcatenated_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayWithEven" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.ArrayOfTenElement" />
-        <item itemvalue="Application.RestartCollection" />
-        <item itemvalue="Application.PrintEvenSum" />
+        <item itemvalue="TestNG.AlternatingListTest.testForAlternate" />
+        <item itemvalue="JUnit.ArrayOfDigitsTest" />
+        <item itemvalue="JUnit.ArrayOfDigitsTest.testThatFunctionReturnsListOfDigit" />
+        <item itemvalue="TestNG.ConcatTwoListsTest" />
+        <item itemvalue="TestNG.ConcatTwoListsTest.testThatTwoListCanBeConcatenated_" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +250,15 @@
       <workItem from="1689281803563" duration="7146000" />
       <workItem from="1689289378590" duration="198000" />
       <workItem from="1689330423960" duration="12888000" />
+      <workItem from="1689358170374" duration="9729000" />
+      <workItem from="1689414362075" duration="706000" />
+      <workItem from="1689416091858" duration="4135000" />
+      <workItem from="1689430295506" duration="836000" />
+      <workItem from="1689438855266" duration="1528000" />
+      <workItem from="1689444692984" duration="1852000" />
+      <workItem from="1689454407710" duration="2734000" />
+      <workItem from="1689501709396" duration="30684000" />
+      <workItem from="1689546185943" duration="60000" />
     </task>
     <servers />
   </component>

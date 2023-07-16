@@ -9,8 +9,6 @@ public class ComputeDeviation {
         Scanner input = new Scanner(System.in);
         double[] numberList = new double[terms];
 
-//        System.out.print("Enter the number of terms: ");
-//        terms = input.nextInt();
         System.out.print("Enter ten Numbers: ");
 
         for (int counter = 0; counter < terms; ) {

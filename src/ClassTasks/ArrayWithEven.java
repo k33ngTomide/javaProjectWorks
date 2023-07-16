@@ -11,6 +11,5 @@ public class ArrayWithEven {
         for(int counter = 0; counter < number.length; counter++){
             System.out.println(number[counter] = 2 + counter + counter);
         }
-
     }
 }
