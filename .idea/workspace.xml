@@ -5,36 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ArrayOfDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ConcatTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/EvenPositionElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/LargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/OddPositionElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/RunningTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/SumOfNumbersInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayOfCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/ArrayOfDigitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/CheckElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/CheckPalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/ConcatTwoListsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/EvenPositionElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/LargestElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/OddPositionElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/ReverseListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/RunningTotalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/SumOfNumbersInListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/BinaryDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/BigAndSmall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/MultiplyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/BinaryToDecimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskTest/BigAndSmallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskTest/MultiplyClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskTest/PowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskTest/ReserveNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/ComputeDeviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/ComputeDeviation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassTasks/ArrayWithEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassTasks/PrintSumOfEvenScores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,66 +78,17 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlternatingListTest.testForAlternate">
-    <configuration name="ArrayOfDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BinaryToDecimalTest">
+    <configuration name="BinaryToDecimalTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="OurPracticeTasksTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDigitsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayOfDigitsTest.testThatFunctionReturnsListOfDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ArrayOfDigitsTest" />
-      <option name="METHOD_NAME" value="testThatFunctionReturnsListOfDigit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlternatingListTest.testForAlternate" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.AlternatingListTest" />
-      <option name="METHOD_NAME" value="testForAlternate" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatTwoListsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ConcatTwoListsTest" />
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -162,17 +96,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatTwoListsTest.testThatTwoListCanBeConcatenated_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryToDecimalTest.testForConversionFromBinaryToDecimal" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="OurPracticeTasksTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ConcatTwoListsTest" />
-      <option name="METHOD_NAME" value="testThatTwoListCanBeConcatenated_" />
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
+      <option name="METHOD_NAME" value="testForConversionFromBinaryToDecimal" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryToDecimalTest.testForConversionFromBinaryToDecimal_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
+      <option name="METHOD_NAME" value="testForConversionFromBinaryToDecimal_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryToDecimalTest.testForConversionFromDecimalToBinary" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
+      <option name="METHOD_NAME" value="testForConversionFromDecimalToBinary" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest.testForReturnOfTerms_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TaskTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TaskTest" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest.FibonacciTest" />
+      <option name="METHOD_NAME" value="testForReturnOfTerms_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AlternatingListTest.testForAlternate" />
-        <item itemvalue="JUnit.ArrayOfDigitsTest" />
-        <item itemvalue="JUnit.ArrayOfDigitsTest.testThatFunctionReturnsListOfDigit" />
-        <item itemvalue="TestNG.ConcatTwoListsTest" />
-        <item itemvalue="TestNG.ConcatTwoListsTest.testThatTwoListCanBeConcatenated_" />
+        <item itemvalue="TestNG.BinaryToDecimalTest" />
+        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromDecimalToBinary" />
+        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromBinaryToDecimal_1" />
+        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromBinaryToDecimal" />
+        <item itemvalue="TestNG.FibonacciTest.testForReturnOfTerms_1" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +247,8 @@
       <workItem from="1689454407710" duration="2734000" />
       <workItem from="1689501709396" duration="30684000" />
       <workItem from="1689546185943" duration="60000" />
+      <workItem from="1689550641214" duration="1852000" />
+      <workItem from="1689581590994" duration="22643000" />
     </task>
     <servers />
   </component>
