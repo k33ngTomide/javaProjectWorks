@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/BinaryDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/BigAndSmall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/MultiplyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/BinaryToDecimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskTest/BigAndSmallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskTest/MultiplyClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskTest/PowerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskTest/ReserveNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/ArrayManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/SpecificPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SalesCommissionCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/ArrayCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/ArrayManipulationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/SpecificPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/SalesCommissionCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Array/CheckElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Array/CheckElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ChapterSix/VaryingTheTypeOfProblem.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RGAXEctDROfTKR0qHVkCwd60we" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,35 +81,31 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BinaryToDecimalTest">
-    <configuration name="BinaryToDecimalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SalesCommissionCalculator">
+    <configuration name="SalesCommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.SalesCommissionCalculator" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="OurPracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryToDecimalTest.testForConversionFromBinaryToDecimal" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayCopyTest.testThatArrayCanBeCopied_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
-      <option name="METHOD_NAME" value="testForConversionFromBinaryToDecimal" />
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.ArrayCopyTest" />
+      <option name="METHOD_NAME" value="testThatArrayCanBeCopied_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryToDecimalTest.testForConversionFromBinaryToDecimal_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesCommissionCalculatorTest.testThatCommissionWillBeCalculated" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
-      <option name="METHOD_NAME" value="testForConversionFromBinaryToDecimal_1" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.SalesCommissionCalculatorTest" />
+      <option name="METHOD_NAME" value="testThatCommissionWillBeCalculated" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,17 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryToDecimalTest.testForConversionFromDecimalToBinary" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.BinaryToDecimalTest" />
-      <option name="METHOD_NAME" value="testForConversionFromDecimalToBinary" />
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.SpecificPositionTest" />
+      <option name="METHOD_NAME" value="testThatElementCanBeAddedToSpecifiedPosition" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,17 +149,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.testForReturnOfTerms_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskTest.*" />
+          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskTest" />
-      <option name="MAIN_CLASS_NAME" value="TaskTest.FibonacciTest" />
-      <option name="METHOD_NAME" value="testForReturnOfTerms_1" />
+      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.SpecificPositionTest" />
+      <option name="METHOD_NAME" value="testThatElementCanBeAddedToSpecifiedPosition_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BinaryToDecimalTest" />
-        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromDecimalToBinary" />
-        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromBinaryToDecimal_1" />
-        <item itemvalue="TestNG.BinaryToDecimalTest.testForConversionFromBinaryToDecimal" />
-        <item itemvalue="TestNG.FibonacciTest.testForReturnOfTerms_1" />
+        <item itemvalue="Application.SalesCommissionCalculator" />
+        <item itemvalue="TestNG.SalesCommissionCalculatorTest.testThatCommissionWillBeCalculated" />
+        <item itemvalue="TestNG.SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition_1" />
+        <item itemvalue="TestNG.SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition" />
+        <item itemvalue="TestNG.ArrayCopyTest.testThatArrayCanBeCopied_1" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +247,10 @@
       <workItem from="1689501709396" duration="30684000" />
       <workItem from="1689546185943" duration="60000" />
       <workItem from="1689550641214" duration="1852000" />
-      <workItem from="1689581590994" duration="22643000" />
+      <workItem from="1689581590994" duration="28486000" />
+      <workItem from="1689664581644" duration="919000" />
+      <workItem from="1689684889574" duration="399000" />
+      <workItem from="1689697695501" duration="10423000" />
     </task>
     <servers />
   </component>

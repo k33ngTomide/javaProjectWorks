@@ -2,7 +2,7 @@ package Assignments.Array;
 
 public class AlternatingList {
 
-    public static String alternateList(char[] characters, int[] numbers) {
+    public static String[] alternateList(char[] characters, int[] numbers) {
         String alternate = "";
 
         int newCounter = 0, extraCounter = 0;
@@ -19,6 +19,6 @@ public class AlternatingList {
             }
 
         }
-        return alternate;
+        return new String[]{alternate};
     }
 }
