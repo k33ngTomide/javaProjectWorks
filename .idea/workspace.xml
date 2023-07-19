@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/ArrayManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/SpecificPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/SalesCommissionCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/ArrayCopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/ArrayManipulationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/Array/SpecificPositionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/SalesCommissionCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/ReplaceElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/SevenSegmentDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/TikTakToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/keepSevenSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/SevenSegmentDisplayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/AlternatingList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Array/AlternatingListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Array/CheckElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Array/CheckElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,31 +74,35 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SalesCommissionCalculator">
-    <configuration name="SalesCommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.SalesCommissionCalculator" />
+  <component name="RunManager" selected="TestNG.SevenSegmentDisplayTest">
+    <configuration name="SevenSegmentDisplayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasks.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayCopyTest.testThatArrayCanBeCopied_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentDisplayTest.testForAllLightsOn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.ArrayCopyTest" />
-      <option name="METHOD_NAME" value="testThatArrayCanBeCopied_1" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
+      <option name="METHOD_NAME" value="testForAllLightsOn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesCommissionCalculatorTest.testThatCommissionWillBeCalculated" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplayEight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.SalesCommissionCalculatorTest" />
-      <option name="METHOD_NAME" value="testThatCommissionWillBeCalculated" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
+      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplayEight" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplayNine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.SpecificPositionTest" />
-      <option name="METHOD_NAME" value="testThatElementCanBeAddedToSpecifiedPosition" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
+      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplayNine" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplaySeven" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.Array.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest.Array" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.Array.SpecificPositionTest" />
-      <option name="METHOD_NAME" value="testThatElementCanBeAddedToSpecifiedPosition_1" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
+      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplaySeven" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SalesCommissionCalculator" />
-        <item itemvalue="TestNG.SalesCommissionCalculatorTest.testThatCommissionWillBeCalculated" />
-        <item itemvalue="TestNG.SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition_1" />
-        <item itemvalue="TestNG.SpecificPositionTest.testThatElementCanBeAddedToSpecifiedPosition" />
-        <item itemvalue="TestNG.ArrayCopyTest.testThatArrayCanBeCopied_1" />
+        <item itemvalue="TestNG.SevenSegmentDisplayTest" />
+        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplayNine" />
+        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplaySeven" />
+        <item itemvalue="TestNG.SevenSegmentDisplayTest.testForAllLightsOn" />
+        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplayEight" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +247,8 @@
       <workItem from="1689581590994" duration="28486000" />
       <workItem from="1689664581644" duration="919000" />
       <workItem from="1689684889574" duration="399000" />
-      <workItem from="1689697695501" duration="10423000" />
+      <workItem from="1689697695501" duration="10762000" />
+      <workItem from="1689767288039" duration="29697000" />
     </task>
     <servers />
   </component>
