@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/ReplaceElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/SevenSegmentDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/TikTakToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/keepSevenSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/SevenSegmentDisplayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/PersonalityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFour/DecryptionPrivacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFour/EnforcingPrivacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniqueRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,103 +74,67 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SevenSegmentDisplayTest">
-    <configuration name="SevenSegmentDisplayTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PersonalityTest">
+    <configuration name="EnforcingPrivacy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChapterFour.EnforcingPrivacy" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="PATTERN" value="ChapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentDisplayTest.testForAllLightsOn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.Kata" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
-      <option name="METHOD_NAME" value="testForAllLightsOn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplayEight" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
-      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplayEight" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplayNine" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonalityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.PersonalityTest" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
-      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplayNine" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevenSegmentDisplayTest.testThatSwitchLightCanDisplaySeven" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UniqueRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniqueRandom" />
       <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.SevenSegmentDisplayTest" />
-      <option name="METHOD_NAME" value="testThatSwitchLightCanDisplaySeven" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SevenSegmentDisplayTest" />
-        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplayNine" />
-        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplaySeven" />
-        <item itemvalue="TestNG.SevenSegmentDisplayTest.testForAllLightsOn" />
-        <item itemvalue="TestNG.SevenSegmentDisplayTest.testThatSwitchLightCanDisplayEight" />
+        <item itemvalue="Application.PersonalityTest" />
+        <item itemvalue="Application.UniqueRandom" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EnforcingPrivacy" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +212,11 @@
       <workItem from="1689664581644" duration="919000" />
       <workItem from="1689684889574" duration="399000" />
       <workItem from="1689697695501" duration="10762000" />
-      <workItem from="1689767288039" duration="29697000" />
+      <workItem from="1689767288039" duration="30789000" />
+      <workItem from="1689840772394" duration="12000" />
+      <workItem from="1689852946817" duration="653000" />
+      <workItem from="1689886485974" duration="15093000" />
+      <workItem from="1689923392435" duration="43090000" />
     </task>
     <servers />
   </component>
