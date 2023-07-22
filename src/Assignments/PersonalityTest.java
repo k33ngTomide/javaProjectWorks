@@ -104,7 +104,7 @@ public class PersonalityTest {
                     if(userResponse.equalsIgnoreCase("A")){
                         allUserEntries[0][1] = questionContent[1][0];sNcounterA++;}
                     else {
-                        allUserEntries[0][1] = questionContent[1][1];}
+                        allUserEntries[0][1] = questionContent[1][1];sNcounterB++;}
                     break;
                 case 6:
                     if(userResponse.equalsIgnoreCase("A")){
@@ -219,8 +219,6 @@ public class PersonalityTest {
             responsesCollation();
         }
 
-
-
     }
     public void allQuestions(){
 
@@ -259,7 +257,7 @@ public class PersonalityTest {
 
     public void checkPersonality(){
 
-        System.out.println("Hello" + name + "You selected");
+        System.out.println("Hello " + name + " You selected");
         System.out.println(allUserEntries[0][0] + "\n" + allUserEntries[1][0] + " " +
                 allUserEntries[2][0] + "\n" + allUserEntries[3][0] + "\n" + allUserEntries[4][0] +
                 "\n" + "Number of A selected =  " + eIcounterA
