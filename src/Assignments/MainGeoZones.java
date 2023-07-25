@@ -1,13 +1,16 @@
 package Assignments;
 
-import static Assignments.GeopoliticalZones.SOUTH_EAST;
-import static Assignments.GeopoliticalZones.SOUTH_WEST;
+import static Assignments.GeoPoliticalZones.*;
 
 public class MainGeoZones {
 
     public static void main(String[] args) {
 
-        String displayStates = SOUTH_EAST.state();
-        System.out.println(displayStates);
+        String southEasternStates = SOUTH_SOUTH.state();
+        System.out.println(southEasternStates);
+
+        String southWesternStates = SOUTH_WEST.state();
+        System.out.println(southWesternStates);
+
     }
 }

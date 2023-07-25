@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class CreditCardValidator {
 
     private String type;
-
     private String cardNumber;
     private String validityStatus;
 
