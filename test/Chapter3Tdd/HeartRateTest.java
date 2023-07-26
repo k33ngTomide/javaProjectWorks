@@ -1,6 +1,6 @@
 package Chapter3Tdd;
 
-import ChapterThree.HeartRate;
+import Dietel.ChapterThree.HeartRate;
 import org.testng.annotations.Test;
 
 import java.time.LocalDate;

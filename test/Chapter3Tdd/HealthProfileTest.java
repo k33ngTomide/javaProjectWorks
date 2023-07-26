@@ -1,9 +1,7 @@
 package Chapter3Tdd;
 
-import ChapterThree.HealthProfile;
+import Dietel.ChapterThree.HealthProfile;
 import org.testng.annotations.Test;
-
-import java.time.Month;
 
 public class HealthProfileTest {
 

@@ -1,6 +1,6 @@
 package Chapter4tdd;
 
-import ChapterFour.CreditLimitCalculator;
+import Dietel.ChapterFour.CreditLimitCalculator;
 import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class CreditLimitCalculatorTest {

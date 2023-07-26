@@ -1,6 +1,6 @@
 package Chapter3Tdd;
 
-import ChapterThree.PetrolPurchase;
+import Dietel.ChapterThree.PetrolPurchase;
 import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

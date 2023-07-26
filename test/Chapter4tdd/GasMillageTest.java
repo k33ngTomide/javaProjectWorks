@@ -1,7 +1,7 @@
 package Chapter4tdd;
 
 
-import ChapterFour.GasMillage;
+import Dietel.ChapterFour.GasMillage;
 import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

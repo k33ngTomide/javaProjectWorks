@@ -1,6 +1,6 @@
 package Chapter4tdd;
 
-import ChapterFour.Exponential;
+import Dietel.ChapterFour.Exponential;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

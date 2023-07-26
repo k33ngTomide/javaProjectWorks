@@ -1,6 +1,6 @@
 package Chapter4tdd;
 
-import ChapterFour.WorldPopulationGrowth;
+import Dietel.ChapterFour.WorldPopulationGrowth;
 import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,7 +1,6 @@
 package Chapter4tdd;
 
-import ChapterFour.Factorial;
-import org.junit.jupiter.api.BeforeEach;
+import Dietel.ChapterFour.Factorial;
 import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
