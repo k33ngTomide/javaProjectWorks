@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/States.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/CharacterChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/Table2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/CharacterCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/UniqueElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/RandomCharaters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/ArrayLists/ArrayListOfOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/ArrayLists/UniqueElementSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assignments/CreditCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/CreditCardValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/GeopoliticalZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/GeoPoliticalZones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/MainGeoZones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/MainGeoZones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Array/CreditCardValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Array/CreditCardValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2RGAXEctDROfTKR0qHVkCwd60we" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -78,13 +81,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Table2">
-    <configuration name="MainGeoZones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.MainGeoZones" />
+  <component name="RunManager" selected="TestNG.CreditCardValidatorTest">
+    <configuration name="ArrayListOfOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.ArrayLists.ArrayListOfOptions" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="OurPracticeTasks.ArrayLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassWork.Table" />
+    <configuration name="RandomCharaters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.RandomCharaters" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWork.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Table2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassWork.Table2" />
+    <configuration name="UniqueElementSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.ArrayLists.UniqueElementSort" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWork.*" />
+          <option name="PATTERN" value="OurPracticeTasks.ArrayLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,35 +121,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterCheckerTest.testIfCharacterIsNotPresent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.CharacterCheckerTest" />
-      <option name="METHOD_NAME" value="testIfCharacterIsNotPresent" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.CreditCardValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterCheckerTest.testIfCharacterIsPresent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardValidatorTest.testForValidityStatus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.CharacterCheckerTest" />
-      <option name="METHOD_NAME" value="testIfCharacterIsPresent" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.CreditCardValidatorTest" />
+      <option name="METHOD_NAME" value="testForValidityStatus" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Table2" />
-        <item itemvalue="Application.Table" />
-        <item itemvalue="TestNG.CharacterCheckerTest.testIfCharacterIsNotPresent" />
-        <item itemvalue="TestNG.CharacterCheckerTest.testIfCharacterIsPresent" />
-        <item itemvalue="Application.MainGeoZones" />
+        <item itemvalue="TestNG.CreditCardValidatorTest" />
+        <item itemvalue="Application.ArrayListOfOptions" />
+        <item itemvalue="Application.UniqueElementSort" />
+        <item itemvalue="Application.RandomCharaters" />
+        <item itemvalue="TestNG.CreditCardValidatorTest.testForValidityStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +254,10 @@
       <workItem from="1690147826159" duration="97000" />
       <workItem from="1690184116644" duration="15978000" />
       <workItem from="1690282972869" duration="1348000" />
+      <workItem from="1690298846511" duration="5346000" />
+      <workItem from="1690311770452" duration="7823000" />
+      <workItem from="1690375339710" duration="1112000" />
+      <workItem from="1690408534941" duration="3840000" />
     </task>
     <servers />
   </component>

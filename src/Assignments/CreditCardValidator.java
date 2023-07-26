@@ -23,10 +23,10 @@ public class CreditCardValidator {
 
             System.out.println();
             System.out.println("*".repeat(40) +
-                    "\n**Credit Card Type: " + newCard.type +
+                    "\n**Credit Card Type: " + newCard.getCardType() +
                     "\n**Credit Card Number: " + userCardNumber +
                     "\n**Credit Card Digit Length: " + userCardNumber.length() +
-                    "\n**Credit Card Validity status: " + newCard.validityStatus + "\n" +
+                    "\n**Credit Card Validity status: " + newCard.getValidityStatus() + "\n" +
                     "*".repeat(40));
 
         }else {
@@ -40,9 +40,9 @@ public class CreditCardValidator {
 
         return false;
     }
-    public String cardTypeDetector(String cardNumber) {
+    public void cardTypeDetector(String cardNumber) {
 
-        if (isCardValid()) {
+        if (cardNumber.length() >= 13 && cardNumber.length() <= 16) {
 
             if(cardNumber.startsWith("4")) type = "Visa";
             else if (cardNumber.startsWith("5")) type = "MasterCard";
@@ -53,15 +53,13 @@ public class CreditCardValidator {
         } else{
             type = "Invalid Card";
         }
-
-        return type;
     }
 
-    public String cardValidityDetector(String cardNumber) {
+    public void cardValidityDetector(String cardNumber) {
 
         validityStatus = "Invalid";
 
-        if (isCardValid()) {
+        if (cardNumber.length() >= 13 && cardNumber.length() <= 16) {
             int evenTotal = 0;
             int oddTotal = 0;
 
@@ -87,6 +85,14 @@ public class CreditCardValidator {
             else validityStatus = "Invalid";
 
         }
+    }
+
+
+    public String getCardType() {
+        return type;
+    }
+
+    public String getValidityStatus() {
         return validityStatus;
     }
 }
