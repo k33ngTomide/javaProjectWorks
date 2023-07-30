@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Account/AccountClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Account/AccountClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Rectangle/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Rectangle/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/StudentGradeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,7 @@
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2RGAXEctDROfTKR0qHVkCwd60we" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,7 +76,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountClientTest">
+  <component name="RunManager" selected="Application.StudentGrade">
     <configuration name="AccountClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.Account.AccountClientTest" />
       <module name="javaProjectWorks" />
@@ -106,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListOfOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.ArrayLists.ArrayListOfOptions" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OurPracticeTasks.ArrayLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.Rectangle.RectangleTest" />
       <module name="javaProjectWorks" />
@@ -132,7 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.Array.StudentGrade" />
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentGradeTest.testThatStudentGrade_Can_Be_Created" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +138,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.CreditCardValidatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Array.StudentGradeTest" />
+      <option name="METHOD_NAME" value="testThatStudentGrade_Can_Be_Created" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentGrade" />
+        <item itemvalue="TestNG.StudentGradeTest.testThatStudentGrade_Can_Be_Created" />
         <item itemvalue="Application.AccountClientTest" />
         <item itemvalue="Application.AccountTest" />
         <item itemvalue="Application.RectangleTest" />
-        <item itemvalue="TestNG.CreditCardValidatorTest" />
-        <item itemvalue="Application.ArrayListOfOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +250,11 @@
       <workItem from="1690375339710" duration="1112000" />
       <workItem from="1690408534941" duration="6068000" />
       <workItem from="1690491902773" duration="9931000" />
+      <workItem from="1690528531118" duration="858000" />
+      <workItem from="1690650566675" duration="23405000" />
+      <workItem from="1690717628669" duration="11001000" />
+      <workItem from="1690736765611" duration="3309000" />
+      <workItem from="1690746798865" duration="4660000" />
     </task>
     <servers />
   </component>
