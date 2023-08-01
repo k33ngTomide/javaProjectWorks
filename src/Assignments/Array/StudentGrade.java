@@ -5,14 +5,14 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class StudentGrade {
-    int numberOfStudent;
-    int numberOfSubjects;
+    private int numberOfStudent;
+    private int numberOfSubjects;
 
-    String[][] studentScores;
-    int[] totalScore;
+    private String[][] studentScores;
+    private int[] totalScore;
     private static final Scanner userInput = new Scanner(System.in);
-    int overallStudentScore;
-
+    private int overallStudentScore;
+    private int totalNumberOfEntries;
 
     public static void main(String[] args) throws InterruptedException {
         StudentGrade studentGrade = new StudentGrade();
@@ -40,6 +40,7 @@ public class StudentGrade {
                 userNumberOfSubjects.matches("[0-9]+")) {
             setStudentAndSubjectNumber(Integer.parseInt(userNumberOfStudents) + 1,
                     Integer.parseInt(userNumberOfSubjects) + 4);
+            saver();
         } else {
             System.out.println("Invalid Input");
             inputChecker();
@@ -65,8 +66,8 @@ public class StudentGrade {
 
         for (int counter = 1; counter < scoreEntry[0].length; counter++) {
             scoreEntry[0][counter] = "SUB" + counter;
-
         }
+
         scoreEntry[0][scoreEntry[0].length - 1] = "POSTN";
         scoreEntry[0][scoreEntry[0].length - 2] = "AVEG";
         scoreEntry[0][scoreEntry[0].length - 3] = "TOTL";
@@ -78,7 +79,7 @@ public class StudentGrade {
     public void scoresFiller() throws InterruptedException {
         int[] studentTotalScore = new int[numberOfStudent];
 
-        int total = 0, overallTotal = 0; double average = 0.0;
+        int total = 0, overallTotal = 0, totalEntry= 0; double average = 0.0;
 
         for ( int index = 1; index < studentScores.length; index++) {
             for (int newIndex = 1; newIndex <= studentScores[index].length - 4; ) {
@@ -95,6 +96,8 @@ public class StudentGrade {
                     average = (double) total / newIndex;
                     newIndex++;
                     overallTotal += score;
+                    totalEntry++;
+                    saver();
 
                 } else {
 
@@ -113,7 +116,7 @@ public class StudentGrade {
         }
 
         totalScore = studentTotalScore;
-        overallStudentScore = overallTotal;
+        overallStudentScore = overallTotal; totalNumberOfEntries = totalEntry;
         positionCalculator();
 
     }
@@ -121,31 +124,23 @@ public class StudentGrade {
     public void positionCalculator(){
 
         Arrays.sort(totalScore);
-        int[] newTotalScore = new int[numberOfStudent];
 
         System.out.println(Arrays.toString(totalScore));
-        int index = 1;
-        for (int counter = totalScore.length-1; counter > 0; counter--) {
-            newTotalScore[index] = totalScore[counter];
-            index++;
-        }
-
-        System.out.println(Arrays.toString(newTotalScore));
 
         for (int counter = 1; counter < totalScore.length - 1; counter++) {
-            for (int newCounter = 1; newCounter < studentScores[0].length - 3; newCounter++) {
+            for (int newCounter = 1; newCounter < numberOfStudent - 1; newCounter++) {
 
                 int value = Integer.parseInt(studentScores[newCounter][(studentScores[0].length) - 3]);
 
-                if ( newTotalScore[counter] == value) {
-                    studentScores[newCounter][studentScores[0].length - 1] = String.valueOf(counter);
+                if ( totalScore[counter] == value) {
+                    studentScores[newCounter][studentScores[0].length - 1] = String.valueOf(numberOfStudent - counter);
                 }
             }
 
         }
     }
 
-    public void headerOutput() throws InterruptedException {
+    public void headerOutput(){
 
         for (int counter = 0; counter < studentScores[0].length; counter++) {
             System.out.printf(String.format("%10s", studentScores[0][counter]));
@@ -153,7 +148,7 @@ public class StudentGrade {
         System.out.println();
     }
 
-    public void scoreOutput() throws InterruptedException {
+    public void scoreOutput() {
 
         for (int counter = 1; counter < studentScores.length; counter++) {
             for (int newCounter = 0; newCounter < studentScores[counter].length; newCounter++) {
@@ -164,7 +159,7 @@ public class StudentGrade {
     }
 
     public static void saver() throws InterruptedException {
-        System.out.print("Saving ");
+        System.out.print("\nSaving ");
         for (int counter = 0; counter < 10; counter++) {
             System.out.print(">");
             Thread.sleep(100);
@@ -177,16 +172,47 @@ public class StudentGrade {
         System.out.println("SUBJECT SUMMARY");
         int total = 0, passes = 0, fails = 0;
 
+        int failed = Integer.MIN_VALUE, passed = Integer.MIN_VALUE;
+        int numberOfFailures = 0, numberOfPasses = 0;
+        int worstSubjectSaver = 0, bestSubjectSaver = 0;
+
+        int lowestScore = Integer.MAX_VALUE, highestScore = Integer.MIN_VALUE;
+        String highScoreStudent = "", lowScoreStudent = "";
+        String highSubject = "", lowSubject = "";
+
         for (int index = 1; index < numberOfSubjects - 3; index++) {
             System.out.println("Subject " + index);
             int[] subjectScores = new int[numberOfStudent];
-            for (int counter = 1; counter < studentScores.length - 1; counter++) {
+            for (int counter = 1; counter < numberOfStudent; counter++) {
                 subjectScores[counter] = Integer.parseInt(studentScores[counter][index]);
                 total += Integer.parseInt(studentScores[counter][index]);
 
                 if(Integer.parseInt(studentScores[counter][index]) >= 50){passes++;}
                 else if (Integer.parseInt(studentScores[counter][index]) < 50){fails++;}
+
+                if (Integer.parseInt(studentScores[counter][index]) > highestScore ){
+                    highestScore = Integer.parseInt(studentScores[counter][index]);
+                    highScoreStudent = studentScores[index][0];
+                    highSubject = studentScores[0][index];
+                }
+                if (Integer.parseInt(studentScores[counter][index]) < lowestScore ){
+                    lowestScore = Integer.parseInt(studentScores[counter][index]);
+                    lowScoreStudent = studentScores[0][index];
+                }
             }
+
+            if (fails > failed){
+                failed = fails;
+                worstSubjectSaver = index;
+                numberOfFailures = fails;
+            }
+
+            if (passes > passed){
+                passed = passes;
+                bestSubjectSaver = index;
+                numberOfPasses = passes;
+            }
+
             Arrays.sort(subjectScores);
             
             String highestScoreStudent = "";
@@ -205,15 +231,60 @@ public class StudentGrade {
                     subjectScores[numberOfStudent - 2] );
             System.out.printf("Lowest Scoring student is: %s scoring %d%n", lowestScoreStudent,
                     subjectScores[1]);
-            System.out.println("Total score is: " + total +
-                    "\nAverage Score is: " + total/(numberOfStudent-1) +
-                    "\nNumber of Passes: " + passes +
+            System.out.println("Total score is: " + total);
+            System.out.printf("Average Score is %.2f%n: ", (double)total/(numberOfStudent-1));
+            System.out.println("Number of Passes: " + passes +
                     "\nNumber of Fails: " + fails + "\n");
 
             total = 0; passes = 0; fails = 0;
+
         }
+
+        System.out.println("\nThe hardest subject is  Subject " + worstSubjectSaver +
+                " with " + numberOfFailures + " failures");
+        System.out.println("The easiest subject is  Subject " + bestSubjectSaver +
+                " with " + numberOfPasses + " passes" );
+        System.out.println("The overall highest score is scored by " +
+                highScoreStudent + " in " + highSubject + " scoring " + highestScore);
+        System.out.println("The overall lowest score is scored by " + lowScoreStudent +
+                " in " + lowSubject + " scoring " + lowestScore);
+        System.out.println("=".repeat(65));
+        classSummary();
     }
 
+    public void classSummary(){
+        Arrays.sort(totalScore);
+
+        System.out.println(Arrays.toString(totalScore));
+
+        int highestScore = totalScore.length - 1;
+        int lowestScore = totalScore[1];
+
+        for(int counter = 1; counter < totalScore.length - 1; counter++ ){
+            for (int index = 1; index < studentScores[counter].length - 4; index++) {
+
+                if (highestScore == Integer.parseInt(studentScores[index][studentScores[index].length - 3])){
+                    System.out.println("=".repeat(55));
+                    System.out.println("The Best Graduating Student is: " + studentScores[0][counter]  + " scoring " +
+                            studentScores[counter][studentScores[0].length-3]);
+                    System.out.println("=".repeat(55));
+                }
+
+                if(lowestScore == Integer.parseInt(studentScores[index][studentScores[index].length - 3])){
+                    System.out.println("!".repeat(55));
+                    System.out.println("The Worst Graduating Student is: " + studentScores[counter][0]  + " scoring " +
+                            studentScores[counter][studentScores[0].length-3]);
+                    System.out.println("!".repeat(55));
+                }
+
+            }
+        }
+
+        System.out.println("=".repeat(35));
+        System.out.println("Class Total is: " + overallStudentScore);
+        System.out.println("Class Average is: " + overallStudentScore/totalNumberOfEntries);
+        System.out.println("=".repeat(35));
+    }
 }
 
 
