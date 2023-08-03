@@ -1,6 +1,5 @@
 package Assignments.Array;
 
-import javax.security.auth.Subject;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -127,8 +126,8 @@ public class StudentGrade {
 
         System.out.println(Arrays.toString(totalScore));
 
-        for (int counter = 1; counter < totalScore.length - 1; counter++) {
-            for (int newCounter = 1; newCounter < numberOfStudent - 1; newCounter++) {
+        for (int counter = 1; counter < totalScore.length; counter++) {
+            for (int newCounter = 1; newCounter < numberOfStudent; newCounter++) {
 
                 int value = Integer.parseInt(studentScores[newCounter][(studentScores[0].length) - 3]);
 
@@ -197,7 +196,7 @@ public class StudentGrade {
                 }
                 if (Integer.parseInt(studentScores[counter][index]) < lowestScore ){
                     lowestScore = Integer.parseInt(studentScores[counter][index]);
-                    lowScoreStudent = studentScores[0][index];
+                    lowScoreStudent = studentScores[index][0];
                 }
             }
 
@@ -218,7 +217,7 @@ public class StudentGrade {
             String highestScoreStudent = "";
             String lowestScoreStudent = "";
 
-            for (int counter = 1; counter < studentScores.length -1; counter++) {
+            for (int counter = 1; counter < studentScores.length; counter++) {
                 if(subjectScores[1] == Integer.parseInt(studentScores[counter][index])){
                     lowestScoreStudent += studentScores[counter][0];
                 }
@@ -232,7 +231,7 @@ public class StudentGrade {
             System.out.printf("Lowest Scoring student is: %s scoring %d%n", lowestScoreStudent,
                     subjectScores[1]);
             System.out.println("Total score is: " + total);
-            System.out.printf("Average Score is %.2f%n: ", (double)total/(numberOfStudent-1));
+            System.out.printf("Average Score is :%.2f%n ", (double)total/(numberOfStudent-1));
             System.out.println("Number of Passes: " + passes +
                     "\nNumber of Fails: " + fails + "\n");
 
@@ -255,29 +254,26 @@ public class StudentGrade {
     public void classSummary(){
         Arrays.sort(totalScore);
 
-        System.out.println(Arrays.toString(totalScore));
-
         int highestScore = totalScore.length - 1;
         int lowestScore = totalScore[1];
 
-        for(int counter = 1; counter < totalScore.length - 1; counter++ ){
-            for (int index = 1; index < studentScores[counter].length - 4; index++) {
+        for(int counter = 1; counter < totalScore.length; counter++ ){
 
-                if (highestScore == Integer.parseInt(studentScores[index][studentScores[index].length - 3])){
-                    System.out.println("=".repeat(55));
-                    System.out.println("The Best Graduating Student is: " + studentScores[0][counter]  + " scoring " +
-                            studentScores[counter][studentScores[0].length-3]);
-                    System.out.println("=".repeat(55));
-                }
-
-                if(lowestScore == Integer.parseInt(studentScores[index][studentScores[index].length - 3])){
-                    System.out.println("!".repeat(55));
-                    System.out.println("The Worst Graduating Student is: " + studentScores[counter][0]  + " scoring " +
-                            studentScores[counter][studentScores[0].length-3]);
-                    System.out.println("!".repeat(55));
-                }
-
+            if (highestScore == Integer.parseInt(studentScores[counter][studentScores[0].length - 3])){
+                System.out.println();
+                System.out.println("=".repeat(55));
+                System.out.println("The Best Graduating Student is: " + studentScores[counter][0]  + " scoring " +
+                        studentScores[counter][studentScores[0].length-3]);
+                System.out.println("=".repeat(55)+ "\n\n");
             }
+
+            if(lowestScore == Integer.parseInt(studentScores[counter][studentScores[0].length - 3])){
+                System.out.println("!".repeat(55));
+                System.out.println("The Worst Graduating Student is: " + studentScores[counter][0]  + " scoring " +
+                        studentScores[counter][studentScores[0].length-3]);
+                System.out.println("!".repeat(55) + "\n");
+            }
+
         }
 
         System.out.println("=".repeat(35));
