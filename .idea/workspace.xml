@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/StudentGradeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/Array/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Array/ReverrsedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Eclipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Addresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/BillingInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/CreditCardInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/EStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/ProductCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Sellers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Shopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Estore/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Problem/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Problem/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Problem/ProblemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/PositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/ReversedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ProblemTest/ProblemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/StudentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/StudentGrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +85,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Problem" />
       <recent name="ChapterFour" />
       <recent name="ChapterFive" />
       <recent name="tdd" />
@@ -77,39 +97,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentGradeClass">
-    <configuration name="AccountClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Account.AccountClientTest" />
+  <component name="RunManager" selected="TestNG.ReversedArrayTest.testForArrayReverse">
+    <configuration name="Eclipse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.Eclipse" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.Account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.Anagrams" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.Array.StudentGrade" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignments.Array.*" />
+          <option name="PATTERN" value="OurPracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentGradeTest.testThatStudentGrade_Can_Be_Created" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionTest.testForPosition" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +133,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.StudentGradeTest" />
-      <option name="METHOD_NAME" value="testThatStudentGrade_Can_Be_Created" />
+      <option name="MAIN_CLASS_NAME" value="Array.PositionTest" />
+      <option name="METHOD_NAME" value="testForPosition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemTest.testForProblems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProblemTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ProblemTest" />
+      <option name="MAIN_CLASS_NAME" value="ProblemTest.ProblemTest" />
+      <option name="METHOD_NAME" value="testForProblems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversedArrayTest.testForArrayReverse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.ReversedArrayTest" />
+      <option name="METHOD_NAME" value="testForArrayReverse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReversedArrayTest.testForArrayReverse" />
+        <item itemvalue="Application.Eclipse" />
+        <item itemvalue="TestNG.ProblemTest.testForProblems" />
+        <item itemvalue="TestNG.PositionTest.testForPosition" />
         <item itemvalue="Application.StudentGradeClass" />
-        <item itemvalue="Application.StudentGrade" />
-        <item itemvalue="Application.Anagrams" />
-        <item itemvalue="TestNG.StudentGradeTest.testThatStudentGrade_Can_Be_Created" />
-        <item itemvalue="Application.AccountClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +293,11 @@
       <workItem from="1690922562290" duration="1642000" />
       <workItem from="1690928759273" duration="669000" />
       <workItem from="1691009310507" duration="9791000" />
+      <workItem from="1691054088183" duration="10720000" />
+      <workItem from="1691136026890" duration="107000" />
+      <workItem from="1691152101118" duration="669000" />
+      <workItem from="1691155322766" duration="7961000" />
+      <workItem from="1691251222625" duration="10320000" />
     </task>
     <servers />
   </component>
