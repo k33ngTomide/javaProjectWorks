@@ -204,7 +204,7 @@ public class CheckOutApp {
     }
 
     private void billTotal(){
-        double bill = subTotal + ((discount/100)*subTotal) + ((subTotal/100)*17.5);
+        double bill = subTotal - ((discount/100)*subTotal) + ((subTotal/100)*17.5);
         customerBillTotal = bill;
         System.out.printf("%20s%10.2f%n", "Bill Total: ", bill);
     }
