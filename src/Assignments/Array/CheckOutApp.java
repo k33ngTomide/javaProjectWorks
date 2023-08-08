@@ -1,15 +1,15 @@
 package Assignments.Array;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CheckOutApp {
-    private String storeName = "STANDARD GROCERIES STORE";
-    private String branch = "MAIN BRANCH";
-    private String storeAddress = "497, C-WAY, LAGOS STATE, NIGERIA.";
-    private String telephone = "+334228127223";
-    private LocalDate date = LocalDate.now();
+    private final String storeName = "STANDARD GROCERIES STORE";
+    private final String branch = "MAIN BRANCH";
+    private final String storeAddress = "497, C-WAY, LAGOS STATE, NIGERIA.";
+    private final String telephone = "+334228127223";
+    private final LocalDateTime date = LocalDateTime.now();
     private String customerName;
     private String cashierName;
     private ArrayList<String> itemsBought = new ArrayList<>();
@@ -45,7 +45,7 @@ public class CheckOutApp {
     }
 
 
-    public LocalDate getDate() {
+    public LocalDateTime getDate() {
         return date;
     }
 
@@ -114,7 +114,7 @@ public class CheckOutApp {
         System.out.println("What did the user buy?");
         String userInput = scan.nextLine();
 
-        if(userInput.matches("\\D*")) {
+        if(userInput.matches("\\D*\\d*\\D*")) {
             itemsBought.add(userInput);
             piecesInput();
         } else {
@@ -145,7 +145,7 @@ public class CheckOutApp {
     private void priceInput() {
         System.out.println("How much per unit?");
         String productPrice = scan.nextLine();
-        if(productPrice.matches("^(0|[1-9]\\d*)")) {
+        if(productPrice.matches("^(0|[1-9]\\d*)(\\.\\d+)?$")) {
             if (Double.parseDouble(productPrice) > 0) {
                 itemPrice.add(Double.parseDouble(productPrice));
                 moreItems();
@@ -160,15 +160,7 @@ public class CheckOutApp {
     }
 
     public void billPage(){
-        headingInfo();
-        doubleDesign();
-        System.out.printf("%10s %10s %10s %10s%n", "ITEM", "QTY", "PRICE", "TOTAL(NGN)");
-        singleDesign();
-        listPrinting();
-        singleDesign();
-        subtotal();
-        doubleDesign();
-        billTotal();
+        all_outputs();
         doubleDesign();
         System.out.println("THIS IS NOT A RECEIPT KINDLY PAY " + customerBillTotal);
         doubleDesign();
@@ -235,6 +227,15 @@ public class CheckOutApp {
 
     public void receipt(){
         restore();
+        all_outputs();
+        amountCustomerPaid();
+        doubleDesign();
+        System.out.println("\t\t\tTHANK YOU FOR YOUR PATRONAGE");
+        doubleDesign();
+
+    }
+
+    private void all_outputs() {
         headingInfo();
         doubleDesign();
         System.out.printf("%10s %10s %10s %10s%n", "ITEM", "QTY", "PRICE", "TOTAL(NGN)");
@@ -244,11 +245,6 @@ public class CheckOutApp {
         subtotal();
         doubleDesign();
         billTotal();
-        amountCustomerPaid();
-        doubleDesign();
-        System.out.println("\t\t\tTHANK YOU FOR YOUR PATRONAGE");
-        doubleDesign();
-
     }
 
     private void amountCustomerPaid() {
