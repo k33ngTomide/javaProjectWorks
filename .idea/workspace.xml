@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assignments/ValidatePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/GeoPoliticalZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/Nigeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/GeoPoliticalZoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assignments/Array/CheckOutApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignments/Array/CheckOutApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +79,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckOutApp">
-    <configuration name="CheckOutApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.Array.CheckOutApp" />
+  <component name="RunManager" selected="Application.Nigeria">
+    <configuration name="Nigeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zones.Nigeria" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.Array.*" />
+          <option name="PATTERN" value="Zones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,30 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eclipse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.Eclipse" />
+    <configuration name="GeoPoliticalZoneTest.testIfZoneWillBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasks.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckOutAppTest.testForUserName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.CheckOutAppTest" />
-      <option name="METHOD_NAME" value="testForUserName" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.GeoPoliticalZoneTest" />
+      <option name="METHOD_NAME" value="testIfZoneWillBeReturned" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,17 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemTest.testForProblems" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GeoPoliticalZoneTest.testIfZoneWillBeReturned_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProblemTest.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ProblemTest" />
-      <option name="MAIN_CLASS_NAME" value="ProblemTest.ProblemTest" />
-      <option name="METHOD_NAME" value="testForProblems" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.GeoPoliticalZoneTest" />
+      <option name="METHOD_NAME" value="testIfZoneWillBeReturned_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,17 +129,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversedArrayTest.testForArrayReverse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GeoPoliticalZoneTest.testIfZoneWillBeReturned_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.ReversedArrayTest" />
-      <option name="METHOD_NAME" value="testForArrayReverse" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.GeoPoliticalZoneTest" />
+      <option name="METHOD_NAME" value="testIfZoneWillBeReturned_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeoPoliticalZoneTest.testToCheckAllEnums" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.GeoPoliticalZoneTest" />
+      <option name="METHOD_NAME" value="testToCheckAllEnums" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckOutApp" />
-        <item itemvalue="TestNG.CheckOutAppTest.testForUserName" />
-        <item itemvalue="TestNG.ReversedArrayTest.testForArrayReverse" />
-        <item itemvalue="Application.Eclipse" />
-        <item itemvalue="TestNG.ProblemTest.testForProblems" />
+        <item itemvalue="Application.Nigeria" />
+        <item itemvalue="TestNG.GeoPoliticalZoneTest.testIfZoneWillBeReturned_1" />
+        <item itemvalue="TestNG.GeoPoliticalZoneTest.testIfZoneWillBeReturned" />
+        <item itemvalue="TestNG.GeoPoliticalZoneTest.testIfZoneWillBeReturned_2" />
+        <item itemvalue="TestNG.GeoPoliticalZoneTest.testToCheckAllEnums" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +293,10 @@
       <workItem from="1691443263359" duration="61000" />
       <workItem from="1691447280380" duration="744000" />
       <workItem from="1691454003450" duration="450000" />
-      <workItem from="1691521947818" duration="732000" />
+      <workItem from="1691521947818" duration="1900000" />
+      <workItem from="1691559430546" duration="7000" />
+      <workItem from="1691579482979" duration="4835000" />
+      <workItem from="1691682557951" duration="12715000" />
     </task>
     <servers />
   </component>
