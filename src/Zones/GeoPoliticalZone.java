@@ -24,11 +24,23 @@ public enum GeoPoliticalZone {
 
     public static GeoPoliticalZone findZone(String state) {
         for(GeoPoliticalZone politicalZone: GeoPoliticalZone.values()){
-            for(String zone: politicalZone.states){
-                if(zone.equalsIgnoreCase(state)){
-                    return politicalZone;
-                }
-            }
+            final GeoPoliticalZone politicalZone1 = getGeoPoliticalZone(state, politicalZone);
+            if (politicalZone1 != null) return politicalZone1;
+        }
+        return null;
+    }
+
+    private static GeoPoliticalZone getGeoPoliticalZone(String state, GeoPoliticalZone politicalZone) {
+        for(String zone: politicalZone.states){
+            final GeoPoliticalZone political = checkState(state, politicalZone, zone);
+            if (political != null) return political;
+        }
+        return null;
+    }
+
+    private static GeoPoliticalZone checkState(String state, GeoPoliticalZone politicalZone, String zone) {
+        if(zone.equalsIgnoreCase(state)){
+            return politicalZone;
         }
         return null;
     }
