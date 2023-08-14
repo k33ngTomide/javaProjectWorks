@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OurPracticeTasks/Nigeria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/OurPracticeTasksTest/GeoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterSeven/Polling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zones/GeoPoliticalZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zones/GeoPoliticalZone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zones/Nigeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zones/Nigeria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +77,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OurPracticeTasks.Nigeria">
-    <configuration name="Nigeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zones.Nigeria" />
+  <component name="RunManager" selected="Application.Polling">
+    <configuration name="OurPracticeTasks.Nigeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.Nigeria" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Zones.*" />
+          <option name="PATTERN" value="OurPracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OurPracticeTasks.Nigeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.Nigeria" />
+    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dietel.ChapterSeven.Polling" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasks.*" />
+          <option name="PATTERN" value="Dietel.ChapterSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.Array.StudentGrade" />
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,24 +128,6 @@
       <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
       <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.GeoTest" />
       <option name="METHOD_NAME" value="testThatPoliticalZoneWill_Be_Displayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeoTest.testThatPoliticalZoneWill_Be_Displayed_2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.GeoTest" />
-      <option name="METHOD_NAME" value="testThatPoliticalZoneWill_Be_Displayed_2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polling" />
+        <item itemvalue="Application.StudentGrade" />
+        <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed" />
         <item itemvalue="Application.OurPracticeTasks.Nigeria" />
         <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed_3" />
-        <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed_2" />
-        <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed" />
-        <item itemvalue="Application.Nigeria" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +284,15 @@
       <workItem from="1691521947818" duration="1900000" />
       <workItem from="1691559430546" duration="7000" />
       <workItem from="1691579482979" duration="4835000" />
-      <workItem from="1691682557951" duration="18790000" />
+      <workItem from="1691682557951" duration="20297000" />
+      <workItem from="1691709783706" duration="98000" />
+      <workItem from="1691739715968" duration="874000" />
+      <workItem from="1691790766229" duration="439000" />
+      <workItem from="1691799063617" duration="2377000" />
+      <workItem from="1691934019309" duration="710000" />
+      <workItem from="1691950940954" duration="1637000" />
+      <workItem from="1692032407500" duration="938000" />
+      <workItem from="1692046237373" duration="7899000" />
     </task>
     <servers />
   </component>
