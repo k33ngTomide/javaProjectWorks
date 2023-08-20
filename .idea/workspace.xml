@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterSeven/Polling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Tokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DataStructureTest/ArrayListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zones/Nigeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zones/Nigeria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,30 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "/home/user/IdeaProjects/javaProjectWorks/src",
+    "last_opened_file_path": "/home/user/IdeaProjects/javaProjectWorks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DataStructure" />
       <recent name="Problem" />
       <recent name="ChapterFour" />
       <recent name="ChapterFive" />
@@ -77,89 +88,93 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polling">
-    <configuration name="OurPracticeTasks.Nigeria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasks.Nigeria" />
+  <component name="RunManager" selected="JUnit.ArrayListTest">
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasks.*" />
+          <option name="PATTERN" value="DataStructureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DataStructureTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureTest.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dietel.ChapterSeven.Polling" />
+    <configuration name="ArrayListTest.testThatElementCanBeRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dietel.ChapterSeven.*" />
+          <option name="PATTERN" value="DataStructureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DataStructureTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureTest.ArrayListTest" />
+      <option name="METHOD_NAME" value="testThatElementCanBeRemoved" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.Array.StudentGrade" />
+    <configuration name="ArrayListTest.testThatIndexWillBeReplacedAfterRemoval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.Array.*" />
+          <option name="PATTERN" value="DataStructureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DataStructureTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureTest.ArrayListTest" />
+      <option name="METHOD_NAME" value="testThatIndexWillBeReplacedAfterRemoval" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeoTest.testThatPoliticalZoneWill_Be_Displayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.testThatListCanBeDisplayedAsAnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="DataStructureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.GeoTest" />
-      <option name="METHOD_NAME" value="testThatPoliticalZoneWill_Be_Displayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="DataStructureTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureTest.ArrayListTest" />
+      <option name="METHOD_NAME" value="testThatListCanBeDisplayedAsAnArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeoTest.testThatPoliticalZoneWill_Be_Displayed_3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.testThatRangeCanBeRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OurPracticeTasksTest.*" />
+          <option name="PATTERN" value="DataStructureTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OurPracticeTasksTest" />
-      <option name="MAIN_CLASS_NAME" value="OurPracticeTasksTest.GeoTest" />
-      <option name="METHOD_NAME" value="testThatPoliticalZoneWill_Be_Displayed_3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="DataStructureTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureTest.ArrayListTest" />
+      <option name="METHOD_NAME" value="testThatRangeCanBeRemoved" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Polling" />
-        <item itemvalue="Application.StudentGrade" />
-        <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed" />
-        <item itemvalue="Application.OurPracticeTasks.Nigeria" />
-        <item itemvalue="TestNG.GeoTest.testThatPoliticalZoneWill_Be_Displayed_3" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.testThatRangeCanBeRemoved" />
+        <item itemvalue="JUnit.ArrayListTest.testThatListCanBeDisplayedAsAnArray" />
+        <item itemvalue="JUnit.ArrayListTest.testThatElementCanBeRemoved" />
+        <item itemvalue="JUnit.ArrayListTest.testThatIndexWillBeReplacedAfterRemoval" />
       </list>
     </recent_temporary>
   </component>
@@ -292,11 +307,45 @@
       <workItem from="1691934019309" duration="710000" />
       <workItem from="1691950940954" duration="1637000" />
       <workItem from="1692032407500" duration="938000" />
-      <workItem from="1692046237373" duration="7899000" />
+      <workItem from="1692046237373" duration="8361000" />
+      <workItem from="1692093147012" duration="1920000" />
+      <workItem from="1692187871751" duration="685000" />
+      <workItem from="1692223010668" duration="465000" />
+      <workItem from="1692292336167" duration="685000" />
+      <workItem from="1692350305220" duration="642000" />
+      <workItem from="1692402234691" duration="3761000" />
+      <workItem from="1692457772046" duration="32397000" />
+      <workItem from="1692500794610" duration="2675000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaProjectWorks$ArrayListTest_testThatElementCanBeReplaced.ic" NAME="ArrayListTest.testThatElementCanBeReplaced Coverage Results" MODIFIED="1692480548874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DataStructureTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1692503408150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DataStructureTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$BuildingTest.ic" NAME="BuildingTest Coverage Results" MODIFIED="1692223416256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$AirConditionTest.ic" NAME="AirConditionTest Coverage Results" MODIFIED="1692223276508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$BikeTest.ic" NAME="BikeTest Coverage Results" MODIFIED="1692223300896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$ArrayListTest_testThatElementCanBeAddedAt_A_GivenIndex.ic" NAME="ArrayListTest.testThatElementCanBeAddedAt_A_GivenIndex Coverage Results" MODIFIED="1692466303104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DataStructureTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$AccountTest.ic" NAME="AccountTest Coverage Results" MODIFIED="1692223202619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$AccountTest_canDepositIntoAccountTest.ic" NAME="AccountTest.canDepositIntoAccountTest Coverage Results" MODIFIED="1692223257713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
+    </SUITE>
   </component>
 </project>
