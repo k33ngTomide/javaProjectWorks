@@ -7,13 +7,14 @@ public class LinkedList{
         this.head = null;
     }
     public void add(String element) {
+
         Node newNode = new Node(element);
 
         if(head == null){
             head = newNode;
         } else {
             Node current = head;
-            while(current.next != null){
+            while (current.next != null) {
                 current = current.next;
             }
             current.next = newNode;
@@ -90,4 +91,5 @@ public class LinkedList{
     public String peekLast() {
         return get(size() - 1);
     }
+
 }

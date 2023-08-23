@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/HashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DataStructureTest/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskFactory/Q1Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskFactory/Q2ArrayRearranged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskFactory/Q1ArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/ArraylistSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/ArrayListSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,81 +93,81 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Q1ArrayTest">
+    <configuration name="Q1ArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureTest.*" />
+          <option name="PATTERN" value="TaskFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructureTest" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureTest.LinkedListTest" />
+      <option name="PACKAGE_NAME" value="TaskFactory" />
+      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testThatElementAtTheHeadOfTheListWillBeRetrieved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1ArrayTest.testThatArrayCanBeRearranged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureTest.*" />
+          <option name="PATTERN" value="TaskFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructureTest" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureTest.LinkedListTest" />
-      <option name="METHOD_NAME" value="testThatElementAtTheHeadOfTheListWillBeRetrieved" />
+      <option name="PACKAGE_NAME" value="TaskFactory" />
+      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
+      <option name="METHOD_NAME" value="testThatArrayCanBeRearranged" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testThatElementAtTheLastOfTheListWillBeRetrieved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1ArrayTest.testThatArrayCanBeRearrangedWhenLengthIsOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureTest.*" />
+          <option name="PATTERN" value="TaskFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructureTest" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureTest.LinkedListTest" />
-      <option name="METHOD_NAME" value="testThatElementAtTheLastOfTheListWillBeRetrieved" />
+      <option name="PACKAGE_NAME" value="TaskFactory" />
+      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
+      <option name="METHOD_NAME" value="testThatArrayCanBeRearrangedWhenLengthIsOdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testThatTheElementAtTheHeadOfTheListWillBeRetrieved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1ArrayTest.testThatArrayCanBeTurned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureTest.*" />
+          <option name="PATTERN" value="TaskFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructureTest" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureTest.LinkedListTest" />
-      <option name="METHOD_NAME" value="testThatTheElementAtTheHeadOfTheListWillBeRetrieved" />
+      <option name="PACKAGE_NAME" value="TaskFactory" />
+      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
+      <option name="METHOD_NAME" value="testThatArrayCanBeTurned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testThatTheElementSpecifiedWiLLBeAdded_ToTheEndOfTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Q1ArrayTest.testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructureTest.*" />
+          <option name="PATTERN" value="TaskFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataStructureTest" />
-      <option name="MAIN_CLASS_NAME" value="DataStructureTest.LinkedListTest" />
-      <option name="METHOD_NAME" value="testThatTheElementSpecifiedWiLLBeAdded_ToTheEndOfTheList" />
+      <option name="PACKAGE_NAME" value="TaskFactory" />
+      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
+      <option name="METHOD_NAME" value="testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.testThatElementAtTheLastOfTheListWillBeRetrieved" />
-        <item itemvalue="JUnit.LinkedListTest.testThatElementAtTheHeadOfTheListWillBeRetrieved" />
-        <item itemvalue="JUnit.LinkedListTest.testThatTheElementAtTheHeadOfTheListWillBeRetrieved" />
-        <item itemvalue="JUnit.LinkedListTest.testThatTheElementSpecifiedWiLLBeAdded_ToTheEndOfTheList" />
+        <item itemvalue="JUnit.Q1ArrayTest" />
+        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeRearrangedWhenLengthIsOdd" />
+        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeRearranged" />
+        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeTurned" />
+        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +325,10 @@
       <workItem from="1692573449627" duration="455000" />
       <workItem from="1692601685341" duration="1827000" />
       <workItem from="1692619730618" duration="97000" />
-      <workItem from="1692650836929" duration="12675000" />
+      <workItem from="1692650836929" duration="13102000" />
+      <workItem from="1692681352881" duration="1467000" />
+      <workItem from="1692768676043" duration="7532000" />
+      <workItem from="1692784469559" duration="2976000" />
     </task>
     <servers />
   </component>

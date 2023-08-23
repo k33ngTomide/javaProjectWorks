@@ -4,6 +4,7 @@ import DataStructure.LinkedList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class LinkedListTest {
 
@@ -210,5 +211,18 @@ public class LinkedListTest {
 
         assertEquals("98", newLinkedList.peekLast());
     }
+    @Test
+    public void testThatExceptionWillBeThrownIfSizeIsNotValid(){
+        newLinkedList = new LinkedList();
+        newLinkedList.add("45");
+        newLinkedList.add("56");
+
+        assertThrows(IndexOutOfBoundsException.class, () ->{
+                newLinkedList.get(-1);
+                throw new IndexOutOfBoundsException("Invalid Index");}
+                );
+    }
+
+    
 
 }
