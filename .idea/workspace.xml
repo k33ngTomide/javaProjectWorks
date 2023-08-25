@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TaskFactory/Q1Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskFactory/Q2ArrayRearranged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskFactory/Q1ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskFactory/OddInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaskFactory/SplitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BankAppTest/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BankAppTest/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskFactory/OddInArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TaskFactory/SplitArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/ArraylistSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/ArrayListSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructureTest/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks/src&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks/src/BankApp&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -80,106 +80,106 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="BankApp" />
+      <recent name="TaskFactory" />
       <recent name="DataStructure" />
       <recent name="Problem" />
       <recent name="ChapterFour" />
-      <recent name="ChapterFive" />
-      <recent name="tdd" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TaskFactory" />
       <recent name="tdd" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Q1ArrayTest">
-    <configuration name="Q1ArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BankTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskFactory.*" />
+          <option name="PATTERN" value="BankAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskFactory" />
-      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1ArrayTest.testThatArrayCanBeRearranged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.testThatCheckingBalanceWithWrongPinThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskFactory.*" />
+          <option name="PATTERN" value="BankAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskFactory" />
-      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
-      <option name="METHOD_NAME" value="testThatArrayCanBeRearranged" />
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <option name="METHOD_NAME" value="testThatCheckingBalanceWithWrongPinThrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1ArrayTest.testThatArrayCanBeRearrangedWhenLengthIsOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskFactory.*" />
+          <option name="PATTERN" value="BankAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskFactory" />
-      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
-      <option name="METHOD_NAME" value="testThatArrayCanBeRearrangedWhenLengthIsOdd" />
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <option name="METHOD_NAME" value="testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1ArrayTest.testThatArrayCanBeTurned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskFactory.*" />
+          <option name="PATTERN" value="BankAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskFactory" />
-      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
-      <option name="METHOD_NAME" value="testThatArrayCanBeTurned" />
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <option name="METHOD_NAME" value="testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1ArrayTest.testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskFactory.*" />
+          <option name="PATTERN" value="BankAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TaskFactory" />
-      <option name="MAIN_CLASS_NAME" value="TaskFactory.Q1ArrayTest" />
-      <option name="METHOD_NAME" value="testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.BankTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Q1ArrayTest" />
-        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeRearrangedWhenLengthIsOdd" />
-        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeRearranged" />
-        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayCanBeTurned" />
-        <item itemvalue="JUnit.Q1ArrayTest.testThatArrayWillNotRearrangeIfThereIsOneEvenNumber" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.AccountTest.testThatCheckingBalanceWithWrongPinThrowsException" />
+        <item itemvalue="JUnit.AccountTest.testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" />
+        <item itemvalue="JUnit.AccountTest.testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +328,14 @@
       <workItem from="1692650836929" duration="13102000" />
       <workItem from="1692681352881" duration="1467000" />
       <workItem from="1692768676043" duration="7532000" />
-      <workItem from="1692784469559" duration="2976000" />
+      <workItem from="1692784469559" duration="3807000" />
+      <workItem from="1692818702190" duration="247000" />
+      <workItem from="1692824715108" duration="7097000" />
+      <workItem from="1692833715478" duration="43000" />
+      <workItem from="1692864928675" duration="3275000" />
+      <workItem from="1692881703896" duration="18185000" />
+      <workItem from="1692962743187" duration="7182000" />
+      <workItem from="1692975479019" duration="1203000" />
     </task>
     <servers />
   </component>
