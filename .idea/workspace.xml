@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskFactory/OddInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskFactory/SplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankAppTest/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankAppTest/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskFactory/OddInArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TaskFactory/SplitArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/RegexCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/RegexForIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,92 +94,90 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApplication" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="PATTERN" value="DiaryApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiaryAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaryAppTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
+      <option name="METHOD_NAME" value="testThatDiariesCanBeAddedToListOfDiaries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiariesTest.testThatDiaryCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiaryAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaryAppTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
+      <option name="METHOD_NAME" value="testThatDiaryCanBeDeleted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiaryAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaryAppTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiaryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.testThatCheckingBalanceWithWrongPinThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryTest.testThatEntryCanBeUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="PATTERN" value="DiaryAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
-      <option name="METHOD_NAME" value="testThatCheckingBalanceWithWrongPinThrowsException" />
+      <option name="PACKAGE_NAME" value="DiaryAppTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiaryTest" />
+      <option name="METHOD_NAME" value="testThatEntryCanBeUpdated" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
-      <option name="METHOD_NAME" value="testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
-      <option name="METHOD_NAME" value="testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.BankTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankTest" />
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.testThatCheckingBalanceWithWrongPinThrowsException" />
-        <item itemvalue="JUnit.AccountTest.testThatWithdrawalWithWrongPinThrowsExceptionAndBalanceIsUntouched" />
-        <item itemvalue="JUnit.AccountTest.testThatWithdrawalWithWrongAmountThrowsExceptionAndBalanceIsUntouched" />
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.DiariesTest.testThatDiaryCanBeDeleted" />
+        <item itemvalue="JUnit.DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" />
+        <item itemvalue="JUnit.DiaryTest" />
+        <item itemvalue="JUnit.DiaryTest.testThatEntryCanBeUpdated" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +333,11 @@
       <workItem from="1692864928675" duration="3275000" />
       <workItem from="1692881703896" duration="18185000" />
       <workItem from="1692962743187" duration="7182000" />
-      <workItem from="1692975479019" duration="1203000" />
+      <workItem from="1692975479019" duration="1333000" />
+      <workItem from="1693038416362" duration="170000" />
+      <workItem from="1693063704234" duration="14240000" />
+      <workItem from="1693125737003" duration="4161000" />
+      <workItem from="1693140930350" duration="4065000" />
     </task>
     <servers />
   </component>
