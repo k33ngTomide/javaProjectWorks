@@ -23,8 +23,13 @@ public class Diary {
         isLocked = true;
     }
 
-    public void unlockDiary() {
+    public void unlockDiary(String password) {
+        validatePassword(password);
         isLocked = false;
+    }
+
+    private void validatePassword(String password) {
+        if(!this.password.equals(password)) throw new IllegalArgumentException("Incorrect Password");
     }
 
     public void createEntry(String title, String body) {

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class DiaryTest {
 
-    Diary diary;
+    private Diary diary;
 
     @BeforeEach
     public void setUp(){
@@ -40,7 +40,7 @@ public class DiaryTest {
         diary.lockDiary();
         assertTrue(diary.isLocked());
 
-        diary.unlockDiary();
+        diary.unlockDiary("password");
         assertFalse(diary.isLocked());
 
     }

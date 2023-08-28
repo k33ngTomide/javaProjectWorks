@@ -33,4 +33,5 @@ public class Diaries {
         if(!findByUsername(username).getPassword().equals(password))
             throw new IllegalArgumentException("Incorrect Password");
     }
+
 }

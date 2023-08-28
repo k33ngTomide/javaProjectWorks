@@ -1,7 +1,6 @@
 package DiaryApp;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class Entry {
     private int id;
@@ -16,8 +15,9 @@ public class Entry {
     }
 
     public String getEntryDetails(){
-        return "Entry Id: " + getEntryId() + "\nTitle: " + getTitle() + "\nBody: "
-                + getBody() + "\nDate Created: " + dateCreated;
+        String design = "*".repeat(20);
+        return  "\n" + design + "\nEntry Id: " + getEntryId() + "\nTitle: " + getTitle() + "\nBody: "
+                + getBody() + "\nDate Created: " + dateCreated + "\n" + design + "\n";
     }
 
     private String getBody() {

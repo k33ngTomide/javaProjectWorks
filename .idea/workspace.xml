@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/RegexCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/RegexForIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiariesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiaryAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DiaryAppTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
@@ -155,29 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.testThatEntryCanBeUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DiaryAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DiaryAppTest" />
-      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiaryTest" />
-      <option name="METHOD_NAME" value="testThatEntryCanBeUpdated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.DiariesTest" />
         <item itemvalue="JUnit.DiariesTest.testThatDiaryCanBeDeleted" />
         <item itemvalue="JUnit.DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" />
         <item itemvalue="JUnit.DiaryTest" />
-        <item itemvalue="JUnit.DiaryTest.testThatEntryCanBeUpdated" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +334,10 @@
       <workItem from="1693038416362" duration="170000" />
       <workItem from="1693063704234" duration="14240000" />
       <workItem from="1693125737003" duration="4161000" />
-      <workItem from="1693140930350" duration="4065000" />
+      <workItem from="1693140930350" duration="19690000" />
+      <workItem from="1693205775436" duration="3723000" />
+      <workItem from="1693211339902" duration="27000" />
+      <workItem from="1693223996575" duration="27000" />
     </task>
     <servers />
   </component>
