@@ -49,9 +49,8 @@ public class Account {
         if(amount < 0) throw new IllegalArgumentException("Amount cannot be Negative");
     }
 
-
     public String getAccount() {
-        return getAccountNumber() + " " + getAccountName() + " " + pin;
+        return getAccountName();
     }
 
     public String getAccountNumber() {

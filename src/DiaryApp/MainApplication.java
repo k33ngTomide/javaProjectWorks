@@ -1,5 +1,6 @@
 package DiaryApp;
 
+import javax.swing.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import static java.lang.System.*;
@@ -17,58 +18,51 @@ public class MainApplication {
     }
 
     private static void welcomeMessage() {
-        out.println("""
+        display("""
                 *******************************************************************
                 Hi, Welcome to Chronicle Diary.
                     Chronicle helps you document your day-to-day experiences,
                     social commentary, complaints, poems, prose, illicit thoughts
                     and any content.
                 *******************************************************************
-                """);
+                 
+                 Click Ok to continue...""");
     }
 
     private void openAccount(){
-
-        out.println("""
+        String inputMessage = """
                 Enter:
                 1. Create Diary
-                """);
-        String username = inputCollector("Input Your Choice: ");
+                """;
+        String username = inputCollector(inputMessage);
         if (username.equals("1")){
-            newSignUP();
+            newSignUp();
             anotherAccount();
         }
-        else {out.println("Invalid Input"); openAccount();}
+        else {display("Invalid Input"); openAccount();}
     }
 
     private void anotherAccount() {
-        out.println("""
-                Enter:
-                1. Create another diary
-                2. Log In
-                """);
-        String username = inputCollector("Input Your Choice: ");
+        String username = inputCollector("Enter: \n1. Create another diary \n2. Log In");
         if (username.equals("1")){
-            newSignUP();
+            newSignUp();
         }
         else if (username.equals("2"))
             logInInput();
-        else {out.println("Invalid Input"); anotherAccount();}
+        else {display("Invalid Input"); anotherAccount();}
     }
 
     private void logInInput(){
         try{
-            out.println("Log in");
-            String username = inputCollector("Username: ");
-            String password = inputCollector("Password: ");
+            String username = inputCollector("Log in \nEnter Username: ");
+            String password = inputCollector("Enter Password: ");
 
             validateInfo(username, password);
-            out.println("Log In Successful");
+            display("Log In Successful");
             loggedIn();
         }
         catch (IllegalArgumentException e){
-            err.println(e.getMessage());
-            out.println(" ");
+            display(e.getMessage());
             logInInput();
         }
     }
@@ -78,15 +72,15 @@ public class MainApplication {
             diaries.validatePassword(username,password);
         }
         catch (IllegalArgumentException e){
-            err.println(e.getMessage());
+            display(e.getMessage());
             logInInput();
         }
 
     }
 
-    private void newSignUP() {
+    private void newSignUp() {
         try {
-            String fullName = inputCollector("Enter your full name: ");
+            String fullName = inputCollector("Sign New Account. \nEnter your full name: ");
             String username = inputCollector("Enter a username: ");
             String password = inputCollector("Enter a password: ");
             String number = inputCollector("Enter your phone number: ");
@@ -96,48 +90,36 @@ public class MainApplication {
             diary = new Diary(username, password);
             saving();
             diaries.add(username, password);
-            out.println("Hello " + username + "\nWelcome To Chronicle Diary");
+            display("Hello " + username + "\nWelcome To Chronicle Diary");
             anotherAccount();
         }
         catch (IllegalArgumentException e) {
-            err.println(e.getMessage());
-            newSignUP();
+            display(e.getMessage());
+            newSignUp();
         }
     }
 
     private void validateDetails(String fullName, String number, String username, String password) {
-        if (fullName.isEmpty() || !fullName.matches( "^[a-zA-Z][ ]*$"))
-            throw new IllegalArgumentException("Name is not suppose to contain numbers.");
-        if(!number.matches("\\d{10}"))
-            throw new IllegalArgumentException("Enter number in the correct format(081********)");
-        if(!username.matches("\\S"))
-            throw new IllegalArgumentException("Username cannot contain space.");
-
+        try {
+            if (fullName.isEmpty() || !fullName.matches("^[^(?![\\s.'])[-a-zA-Z\\s.'\\p{L}]{1,40}]+$"))
+                throw new IllegalArgumentException("Name cannot be empty or contain numbers.");
+            if (!number.matches("\\d{11}"))
+                throw new IllegalArgumentException("Enter number in the correct format(081********)");
+            if (!username.matches("\\S"))
+                throw new IllegalArgumentException("Username cannot contain space.");
+        } catch (IllegalArgumentException e) {display(e.getMessage());}
     }
 
     private static void saving()  {
-        try{
-        out.print("Saving");
-        for (int count = 0; count < 15; count++) {
-            out.print(".");
-            Thread.sleep(250);}
-        }
-        catch (InterruptedException e){
-            err.println(e.getMessage());
-        }
-
-        out.println("Successful");
+        display("Saving...  \nSaved Successfully");
     }
 
     private static String inputCollector(String message) {
-        Scanner scanner = new Scanner(in);
-
-        out.print(message);
-        return scanner.nextLine();
+        return JOptionPane.showInputDialog(null, message);
     }
 
     private void loggedIn(){
-        out.println("""
+        String userEntry = inputCollector("""
                 Enter:
                     1. Add Entry
                     2. Search Entry
@@ -145,35 +127,46 @@ public class MainApplication {
                     4. Update/ Edit Entry
                     5. Lock Diary
                     6. Log Out
+                    7. Exit
                 """);
-        String userEntry = inputCollector("Enter your choice: ");
-        if (userEntry.equals("1")) addEntry();
-        else if (userEntry.equals("2")) findEntry();
-        else if (userEntry.equals("3")) deleteEntry();
-        else if (userEntry.equals("4")) updateEntry();
-        else if (userEntry.equals("5")) lockDiary();
-        else if (userEntry.equals("6")) loggedOut();
-        else {out.println("Invalid Entry");loggedIn();}
+        switch (userEntry) {
+            case "1" -> addEntry();
+            case "2" -> findEntry();
+            case "3" -> deleteEntry();
+            case "4" -> updateEntry();
+            case "5" -> lockDiary();
+            case "6" -> loggedOut();
+            case "7" -> exitApp();
+            default -> {
+                display("Invalid Input, try again.");
+                loggedIn();
+            }
+        }
         
     }
 
+    private void exitApp() {
+        display("Saving all inputs... \nSaved Successfully");
+        exit(1);
+    }
+
     private void loggedOut() {
-        out.println("Logging out...");
+        display("Logged out...");
         anotherAccount();
     }
 
     private void lockDiary(){
         diary.lockDiary();
-        out.println("Diary is Locked.");
-        out.println("""
+        display("Diary is Locked");
+        String input = inputCollector("""
                 Enter:
                 1. UnlockDiary
-                2. Log Out""");
-        String input = inputCollector("Enter your choice: ");
+                2. Log Out
+                """);
         if (input.equals("1")) unlockDiary();
         else if (input.equals("2")) loggedOut();
         else {
-            out.println("invalid Input");
+            display("Invalid Input, try again");
             lockDiary();
         }
 
@@ -185,8 +178,7 @@ public class MainApplication {
             diary.unlockDiary(userPassword);
             loggedIn();
         } catch (IllegalArgumentException e){
-            out.println(e.getMessage());
-
+            display(e.getMessage());
             unlockDiary();
         }
     }
@@ -200,7 +192,7 @@ public class MainApplication {
             saving();
             loggedIn();
         } catch (IllegalArgumentException | InputMismatchException e){
-            err.println(e.getMessage());
+            display(e.getMessage());
 
             updateEntry();
         }
@@ -212,7 +204,7 @@ public class MainApplication {
             int entryId = Integer.parseInt(inputCollector("Enter the Entry Id: "));
             diary.delete(entryId);
         } catch(IllegalArgumentException | InputMismatchException e){
-            err.println(e.getMessage());
+            display(e.getMessage());
             deleteEntry();
         }
     }
@@ -220,19 +212,22 @@ public class MainApplication {
     private void findEntry() {
         try{
             int entryId = Integer.parseInt(inputCollector("Enter the Entry Id: "));
-            out.println(diary.findEntryById(entryId).getEntryDetails());
+            display(diary.findEntryById(entryId).getEntryDetails());
             loggedIn();
         } catch(IllegalArgumentException e) {
-            err.println(e.getMessage());
+            display(e.getMessage());
             findEntry();
         }
 
     }
 
+    private static void display(String message) {
+        JOptionPane.showMessageDialog(null, message);
+    }
+
     private void addEntry() {
         String title = inputCollector("Enter Title: ");
-        String body = inputCollector("Enter the journal: ");
-
+        String body = inputCollector("Enter the body: ");
         diary.createEntry(title, body);
         saving();
         loggedIn();

@@ -10,12 +10,14 @@ public class Bank {
     public Bank(String bankName){
     }
 
-    public void register(String firstName, String lastName, String pin) {
+    public Account register(String firstName, String lastName, String pin) {
         String fullName = firstName + " " + lastName;
         Account account = new Account
                 (generateAccountNumber(), fullName, pin );
         accounts.add(account);
+        return account;
     }
+
 
     private String generateAccountNumber() {
         return (accounts.size() + 1) + "";
@@ -51,5 +53,19 @@ public class Bank {
 
         Account toAccount = findAccount(receiverAccountNumber);
         toAccount.deposit(amount);
+    }
+
+    public void updatePin(String accountNumber, String currentPin, String newPin){
+        Account account = findAccount(accountNumber);
+        account.updatePin(currentPin, newPin);
+    }
+
+    public String alert(String accountNumber, String pin){
+        String design = "=".repeat(40);
+        Account account = findAccount(accountNumber);
+        return  design + "\nAccount Number: " + account.getAccountNumber()
+                + "\nAccount Name: " + account.getAccountName()
+                + "\nAccount Balance: " + account.checkBalance(pin)
+                + "\n" + design;
     }
 }

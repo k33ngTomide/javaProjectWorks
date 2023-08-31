@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BankApp/MainBankApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/UsernameRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiariesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="JUnit.AccountTest">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApplication" />
       <module name="javaProjectWorks" />
@@ -102,6 +101,49 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankApp.MainBankApp" />
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BankAppTest" />
+      <option name="MAIN_CLASS_NAME" value="BankAppTest.BankTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,60 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DiaryAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DiaryAppTest" />
-      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
-      <option name="METHOD_NAME" value="testThatDiariesCanBeAddedToListOfDiaries" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiariesTest.testThatDiaryCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DiaryAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DiaryAppTest" />
-      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
-      <option name="METHOD_NAME" value="testThatDiaryCanBeDeleted" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DiaryAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DiaryAppTest" />
-      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiaryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="Application.MainBankApp" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="JUnit.DiariesTest" />
-        <item itemvalue="JUnit.DiariesTest.testThatDiaryCanBeDeleted" />
-        <item itemvalue="JUnit.DiariesTest.testThatDiariesCanBeAddedToListOfDiaries" />
-        <item itemvalue="JUnit.DiaryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -338,6 +333,15 @@
       <workItem from="1693205775436" duration="3723000" />
       <workItem from="1693211339902" duration="27000" />
       <workItem from="1693223996575" duration="27000" />
+      <workItem from="1693253536011" duration="2634000" />
+      <workItem from="1693312365503" duration="5803000" />
+      <workItem from="1693356023981" duration="5000" />
+      <workItem from="1693381121775" duration="54000" />
+      <workItem from="1693395411811" duration="5000" />
+      <workItem from="1693416909207" duration="1922000" />
+      <workItem from="1693466282163" duration="1383000" />
+      <workItem from="1693483546549" duration="3558000" />
+      <workItem from="1693500289575" duration="11159000" />
     </task>
     <servers />
   </component>
