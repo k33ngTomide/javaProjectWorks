@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/ArrayManipulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/Isogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/BasicException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/AudioBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/PrintBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/BaseCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/TagContentExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTakToe/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTakToe/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/ArrayManipulateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/IsogramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TicTakToeTest/BoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TicTakToeTest/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +107,20 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApp" />
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiaryApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApplication" />
       <module name="javaProjectWorks" />
@@ -180,30 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsogramTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassWorkTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ClassWorkTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.IsogramTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.TicTacToeGame" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.BoardTest" />
-        <item itemvalue="TestNG.IsogramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +374,9 @@
       <workItem from="1694590935531" duration="479000" />
       <workItem from="1694596136706" duration="644000" />
       <workItem from="1694613595052" duration="364000" />
-      <workItem from="1694639083001" duration="604000" />
+      <workItem from="1694639083001" duration="2429000" />
+      <workItem from="1694641537098" duration="216000" />
+      <workItem from="1694641988347" duration="2932000" />
     </task>
     <servers />
   </component>
