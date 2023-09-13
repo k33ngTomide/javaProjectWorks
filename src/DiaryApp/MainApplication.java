@@ -2,7 +2,6 @@ package DiaryApp;
 
 import javax.swing.*;
 import java.util.InputMismatchException;
-import java.util.Scanner;
 import static java.lang.System.*;
 
 public class MainApplication {
@@ -101,8 +100,8 @@ public class MainApplication {
 
     private void validateDetails(String fullName, String number, String username, String password) {
         try {
-            if (fullName.isEmpty() || !fullName.matches("^[^(?![\\s.'])[-a-zA-Z\\s.'\\p{L}]{1,40}]+$"))
-                throw new IllegalArgumentException("Name cannot be empty or contain numbers.");
+            if (fullName.isEmpty())
+                throw new IllegalArgumentException("Name cannot be empty");
             if (!number.matches("\\d{11}"))
                 throw new IllegalArgumentException("Enter number in the correct format(081********)");
             if (!username.matches("\\S"))

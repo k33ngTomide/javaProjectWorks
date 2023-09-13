@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BankApp/MainBankApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/UsernameRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/ArrayManipulate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/Isogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiaryApp/BasicException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/AudioBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Book/PrintBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/BaseCommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterNine/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/TagContentExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTakToe/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTakToe/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/ArrayManipulateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/IsogramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TicTakToeTest/BoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TicTakToeTest/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +44,31 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ChapterSix/VaryingTheTypeOfProblem.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -59,11 +88,14 @@
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks/src/BankApp&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -91,7 +123,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApplication" />
       <module name="javaProjectWorks" />
@@ -105,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankApp.MainBankApp" />
+    <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTakToe.TicTacToeGame" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankApp.*" />
+          <option name="PATTERN" value="TicTakToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,58 +150,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="PATTERN" value="TicTakToeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.AccountTest" />
+      <option name="PACKAGE_NAME" value="TicTakToeTest" />
+      <option name="MAIN_CLASS_NAME" value="TicTakToeTest.BoardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankAppTest.*" />
+          <option name="PATTERN" value="TicTakToeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankAppTest" />
-      <option name="MAIN_CLASS_NAME" value="BankAppTest.BankTest" />
+      <option name="PACKAGE_NAME" value="TicTakToeTest" />
+      <option name="MAIN_CLASS_NAME" value="TicTakToeTest.PlayerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiariesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsogramTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiaryAppTest.*" />
+          <option name="PATTERN" value="ClassWorkTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DiaryAppTest" />
-      <option name="MAIN_CLASS_NAME" value="DiaryAppTest.DiariesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.IsogramTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.BankTest" />
-        <item itemvalue="Application.MainBankApp" />
         <item itemvalue="Application.MainApplication" />
-        <item itemvalue="JUnit.DiariesTest" />
+        <item itemvalue="Application.TicTacToeGame" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.BoardTest" />
+        <item itemvalue="TestNG.IsogramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,12 +375,35 @@
       <workItem from="1693416909207" duration="1922000" />
       <workItem from="1693466282163" duration="1383000" />
       <workItem from="1693483546549" duration="3558000" />
-      <workItem from="1693500289575" duration="11159000" />
+      <workItem from="1693500289575" duration="12464000" />
+      <workItem from="1693568284963" duration="1473000" />
+      <workItem from="1693599439512" duration="1202000" />
+      <workItem from="1693603638968" duration="4320000" />
+      <workItem from="1693645950990" duration="1143000" />
+      <workItem from="1693648014920" duration="259000" />
+      <workItem from="1693761768636" duration="625000" />
+      <workItem from="1693765319540" duration="2786000" />
+      <workItem from="1693860527337" duration="839000" />
+      <workItem from="1694024610976" duration="3313000" />
+      <workItem from="1694172894867" duration="2261000" />
+      <workItem from="1694206544168" duration="90000" />
+      <workItem from="1694254703337" duration="27000" />
+      <workItem from="1694380402057" duration="11430000" />
+      <workItem from="1694468201911" duration="9966000" />
+      <workItem from="1694507585605" duration="20418000" />
+      <workItem from="1694590935531" duration="479000" />
+      <workItem from="1694596136706" duration="644000" />
+      <workItem from="1694613595052" duration="364000" />
+      <workItem from="1694639083001" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaProjectWorks$ArrayListTest_testThatElementCanBeReplaced.ic" NAME="ArrayListTest.testThatElementCanBeReplaced Coverage Results" MODIFIED="1692480548874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
