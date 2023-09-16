@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DiaryApp/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactLogApp/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactLogImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contactLogAppTest/ContactLogImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -76,12 +84,14 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks/src/BankApp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/DiaryProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -99,21 +109,27 @@
       <recent name="Problem" />
       <recent name="ChapterFour" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="TaskFactory" />
       <recent name="tdd" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="contactLogApp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApp" />
+  <component name="RunManager" selected="JUnit.ContactLogImplTest">
+    <configuration name="ContactController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contactLogApp.ContactController" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiaryApp.*" />
+          <option name="PATTERN" value="contactLogApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,69 +137,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiaryApp.MainApplication" />
+    <configuration name="ContactLogImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiaryApp.*" />
+          <option name="PATTERN" value="contactLogAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTakToe.TicTacToeGame" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TicTakToe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TicTakToeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TicTakToeTest" />
-      <option name="MAIN_CLASS_NAME" value="TicTakToeTest.BoardTest" />
+      <option name="PACKAGE_NAME" value="contactLogAppTest" />
+      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactLogImplTest.clearRemovesAllContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTakToeTest.*" />
+          <option name="PATTERN" value="contactLogAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TicTakToeTest" />
-      <option name="MAIN_CLASS_NAME" value="TicTakToeTest.PlayerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="contactLogAppTest" />
+      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
+      <option name="METHOD_NAME" value="clearRemovesAllContacts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactLogImplTest.clearReturnsCountToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="contactLogAppTest" />
+      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
+      <option name="METHOD_NAME" value="clearReturnsCountToZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactLogImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="contactLogAppTest" />
+      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="Application.TicTacToeGame" />
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.BoardTest" />
+        <item itemvalue="JUnit.ContactLogImplTest" />
+        <item itemvalue="Application.ContactController" />
+        <item itemvalue="JUnit.ContactLogImplTest.clearRemovesAllContacts" />
+        <item itemvalue="JUnit.ContactLogImplTest.clearReturnsCountToZero" />
+        <item itemvalue="JUnit.ContactLogImplTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +399,18 @@
       <workItem from="1694613595052" duration="364000" />
       <workItem from="1694639083001" duration="2429000" />
       <workItem from="1694641537098" duration="216000" />
-      <workItem from="1694641988347" duration="2932000" />
+      <workItem from="1694641988347" duration="3474000" />
+      <workItem from="1694649290889" duration="2003000" />
+      <workItem from="1694687453908" duration="6148000" />
+      <workItem from="1694722886173" duration="1249000" />
+      <workItem from="1694728059360" duration="43000" />
+      <workItem from="1694728128584" duration="365000" />
+      <workItem from="1694728673136" duration="181000" />
+      <workItem from="1694728914101" duration="36000" />
+      <workItem from="1694817050353" duration="12650000" />
+      <workItem from="1694872867502" duration="2842000" />
+      <workItem from="1694880577872" duration="756000" />
+      <workItem from="1694897889830" duration="1681000" />
     </task>
     <servers />
   </component>
@@ -393,6 +427,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/javaProjectWorks$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1692503408150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DataStructureTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javaProjectWorks$DiariesTest.ic" NAME="DiariesTest Coverage Results" MODIFIED="1694690004632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DiaryAppTest.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/javaProjectWorks$BuildingTest.ic" NAME="BuildingTest Coverage Results" MODIFIED="1692223416256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tdd.*</FILTER>

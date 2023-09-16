@@ -50,8 +50,8 @@ public class DiaryTest {
         assertFalse(diary.isLocked());
 
         diary.createEntry("My Story Today", "I slept and coded all day");
-        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day").getEntryDetails(),
-                diary.findEntryById(1).getEntryDetails());
+        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day"),
+                diary.findEntryById(1));
 
     }
 
@@ -63,15 +63,22 @@ public class DiaryTest {
         diary.createEntry("My Story LastWeek", "I burnt Egg while Boiling it");
         diary.createEntry("Another One", "We the Best Music");
 
-        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day").getEntryDetails(),
-                diary.findEntryById(1).getEntryDetails());
+        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day"),
+                diary.findEntryById(1));
 
-        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it").getEntryDetails(),
-                diary.findEntryById(2).getEntryDetails());
+        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it"),
+                diary.findEntryById(2));
 
-        assertEquals(new Entry(3, "Another One", "We the Best Music").getEntryDetails(),
-                diary.findEntryById(3).getEntryDetails());
+        assertEquals(new Entry(3, "Another One", "We the Best Music"),
+                diary.findEntryById(3));
 
+    }
+
+    @Test
+    public void testThatExceptionIsThrownIfEntryIsNotFound(){
+        assertFalse(diary.isLocked());
+
+        assertThrows(IllegalArgumentException.class, ()-> diary.findEntryById(1));
     }
 
     @Test
@@ -82,17 +89,17 @@ public class DiaryTest {
         diary.createEntry("My Story LastWeek", "I burnt Egg while Boiling it");
         diary.createEntry("Another One", "We the Best Music");
 
-        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day").getEntryDetails(),
-                diary.findEntryById(1).getEntryDetails());
+        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day"),
+                diary.findEntryById(1));
 
-        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it").getEntryDetails(),
-                diary.findEntryById(2).getEntryDetails());
+        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it"),
+                diary.findEntryById(2));
 
-        assertEquals(new Entry(3, "Another One", "We the Best Music").getEntryDetails(),
-                diary.findEntryById(3).getEntryDetails());
+        assertEquals(new Entry(3, "Another One", "We the Best Music"),
+                diary.findEntryById(3));
 
         diary.delete(2);
-        assertThrows(IllegalArgumentException.class, ()->{diary.findEntryById(2).getEntryDetails();});
+        assertThrows(IllegalArgumentException.class, ()->diary.findEntryById(2));
 
     }
 
@@ -104,18 +111,18 @@ public class DiaryTest {
         diary.createEntry("My Story LastWeek", "I burnt Egg while Boiling it");
         diary.createEntry("Another One", "We the Best Music");
 
-        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day").getEntryDetails(),
-                diary.findEntryById(1).getEntryDetails());
+        assertEquals(new Entry(1, "My Story Today", "I slept and coded all day"),
+                diary.findEntryById(1));
 
-        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it").getEntryDetails(),
-                diary.findEntryById(2).getEntryDetails());
+        assertEquals(new Entry(2, "My Story LastWeek", "I burnt Egg while Boiling it"),
+                diary.findEntryById(2));
 
-        assertEquals(new Entry(3, "Another One", "We the Best Music").getEntryDetails(),
-                diary.findEntryById(3).getEntryDetails());
+        assertEquals(new Entry(3, "Another One", "We the Best Music"),
+                diary.findEntryById(3));
 
         diary.update(1, "My Story for yesterday", "I slept and coded all day, it was a great day");
-        assertEquals(new Entry(1, "My Story for yesterday", "I slept and coded all day, it was a great day").getEntryDetails(),
-                diary.findEntryById(1).getEntryDetails());
+        assertEquals(new Entry(1, "My Story for yesterday", "I slept and coded all day, it was a great day"),
+                diary.findEntryById(1));
 
     }
 

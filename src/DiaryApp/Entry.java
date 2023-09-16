@@ -1,6 +1,7 @@
 package DiaryApp;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 public class Entry {
     private int id;
@@ -38,5 +39,15 @@ public class Entry {
 
     public int getEntryId() {
         return id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Entry entry = (Entry) o;
+        return id == entry.id &&
+                Objects.equals(title, entry.title) &&
+                Objects.equals(body, entry.body);
     }
 }
