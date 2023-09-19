@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contactLogApp/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactLogApp/ContactLogImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contactLogAppTest/ContactLogImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/DateAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTasks/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassTaskTest/StringManipulationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryAppTest/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks/src/BankApp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/DiaryProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/javaProjectWorks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -123,13 +120,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactLogImplTest">
-    <configuration name="ContactController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contactLogApp.ContactController" />
+  <component name="RunManager" selected="TestNG.StringManipulationTest">
+    <configuration name="DateAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.DateAddition" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contactLogApp.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,76 +134,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactLogImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstrualMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualMain" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="contactLogAppTest" />
-      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactLogImplTest.clearRemovesAllContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringManipulationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="PATTERN" value="ClassTaskTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="contactLogAppTest" />
-      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
-      <option name="METHOD_NAME" value="clearRemovesAllContacts" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ClassTaskTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactLogImplTest.clearReturnsCountToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringManipulationTest.testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="PATTERN" value="ClassTaskTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="contactLogAppTest" />
-      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
-      <option name="METHOD_NAME" value="clearReturnsCountToZero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ClassTaskTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
+      <option name="METHOD_NAME" value="testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactLogImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringManipulationTest.testThatSecondLargestNumberIsReturned" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contactLogAppTest.*" />
+          <option name="PATTERN" value="ClassTaskTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="contactLogAppTest" />
-      <option name="MAIN_CLASS_NAME" value="contactLogAppTest.ContactLogImplTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ClassTaskTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
+      <option name="METHOD_NAME" value="testThatSecondLargestNumberIsReturned" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContactLogImplTest" />
-        <item itemvalue="Application.ContactController" />
-        <item itemvalue="JUnit.ContactLogImplTest.clearRemovesAllContacts" />
-        <item itemvalue="JUnit.ContactLogImplTest.clearReturnsCountToZero" />
-        <item itemvalue="JUnit.ContactLogImplTest.findAll" />
+        <item itemvalue="TestNG.StringManipulationTest" />
+        <item itemvalue="TestNG.StringManipulationTest.testThatSecondLargestNumberIsReturned" />
+        <item itemvalue="TestNG.StringManipulationTest.testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" />
+        <item itemvalue="Application.MenstrualMain" />
+        <item itemvalue="Application.DateAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +410,12 @@
       <workItem from="1694817050353" duration="12650000" />
       <workItem from="1694872867502" duration="2842000" />
       <workItem from="1694880577872" duration="756000" />
-      <workItem from="1694897889830" duration="1681000" />
+      <workItem from="1694897889830" duration="5288000" />
+      <workItem from="1694967586625" duration="24000" />
+      <workItem from="1694973571397" duration="3640000" />
+      <workItem from="1694989824082" duration="8264000" />
+      <workItem from="1695016042349" duration="220000" />
+      <workItem from="1695025642554" duration="4903000" />
     </task>
     <servers />
   </component>
