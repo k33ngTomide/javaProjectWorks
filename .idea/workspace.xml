@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assignments/DateAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTasks/StringManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassTaskTest/StringManipulationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/MultiArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/ConcatTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MenstrualAppTest/MenstrualCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/ConcatTwoArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/SingleNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +99,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -120,13 +128,13 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StringManipulationTest">
-    <configuration name="DateAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.DateAddition" />
+  <component name="RunManager" selected="Application.Polling">
+    <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualApp" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="MenstrualApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenstrualMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualMain" />
+    <configuration name="MultiArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.MultiArrayList" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="HackerRank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,52 +155,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringManipulationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dietel.ChapterSeven.Polling" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTaskTest.*" />
+          <option name="PATTERN" value="Dietel.ChapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassTaskTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringManipulationTest.testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenstrualCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTaskTest.*" />
+          <option name="PATTERN" value="MenstrualAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassTaskTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
-      <option name="METHOD_NAME" value="testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="MenstrualAppTest" />
+      <option name="MAIN_CLASS_NAME" value="MenstrualAppTest.MenstrualCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringManipulationTest.testThatSecondLargestNumberIsReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassTaskTest.*" />
+          <option name="PATTERN" value="Minute25Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ClassTaskTest" />
-      <option name="MAIN_CLASS_NAME" value="ClassTaskTest.StringManipulationTest" />
-      <option name="METHOD_NAME" value="testThatSecondLargestNumberIsReturned" />
+      <option name="PACKAGE_NAME" value="Minute25Test" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.ConcatTwoArraysTest" />
+      <option name="METHOD_NAME" value="testThatReturned_Array_willBeAddition_ofTwoArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StringManipulationTest" />
-        <item itemvalue="TestNG.StringManipulationTest.testThatSecondLargestNumberIsReturned" />
-        <item itemvalue="TestNG.StringManipulationTest.testThatNegativeOneIsReturned_IfNoSecondLargestNumberIsPresent" />
-        <item itemvalue="Application.MenstrualMain" />
-        <item itemvalue="Application.DateAddition" />
+        <item itemvalue="Application.Polling" />
+        <item itemvalue="TestNG.ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" />
+        <item itemvalue="Application.MultiArrayList" />
+        <item itemvalue="Application.MenstrualApp" />
+        <item itemvalue="JUnit.MenstrualCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -416,6 +417,20 @@
       <workItem from="1694989824082" duration="8264000" />
       <workItem from="1695016042349" duration="220000" />
       <workItem from="1695025642554" duration="4903000" />
+      <workItem from="1695101531744" duration="871000" />
+      <workItem from="1695157116960" duration="677000" />
+      <workItem from="1695158317275" duration="18000" />
+      <workItem from="1695160799568" duration="1272000" />
+      <workItem from="1695197287674" duration="3985000" />
+      <workItem from="1695242008378" duration="310000" />
+      <workItem from="1695246984787" duration="7653000" />
+      <workItem from="1695284521721" duration="5016000" />
+      <workItem from="1695327905838" duration="15562000" />
+      <workItem from="1695389264978" duration="863000" />
+      <workItem from="1695487066991" duration="766000" />
+      <workItem from="1695574371642" duration="3309000" />
+      <workItem from="1695598395845" duration="118000" />
+      <workItem from="1695674532314" duration="1757000" />
     </task>
     <servers />
   </component>
