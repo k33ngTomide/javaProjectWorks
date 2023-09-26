@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/MultiArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/ConcatTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MenstrualAppTest/MenstrualCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/ConcatTwoArraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/SingleNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassWork/NameClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/ArrayListInsertDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/NameClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,20 +121,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polling">
-    <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualApp" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MenstrualApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned">
     <configuration name="MultiArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HackerRank.MultiArrayList" />
       <module name="javaProjectWorks" />
@@ -168,21 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenstrualCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MenstrualAppTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MenstrualAppTest" />
-      <option name="MAIN_CLASS_NAME" value="MenstrualAppTest.MenstrualCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
@@ -201,13 +166,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NameClassTest.testThatNameInitialWithNameIsReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.NameClassTest" />
+      <option name="METHOD_NAME" value="testThatNameInitialWithNameIsReturned" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameClassTest.testThatNameInitialWithNameIsReturned_again" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.NameClassTest" />
+      <option name="METHOD_NAME" value="testThatNameInitialWithNameIsReturned_again" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned" />
+        <item itemvalue="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned_again" />
         <item itemvalue="Application.Polling" />
         <item itemvalue="TestNG.ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" />
         <item itemvalue="Application.MultiArrayList" />
-        <item itemvalue="Application.MenstrualApp" />
-        <item itemvalue="JUnit.MenstrualCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -431,6 +432,8 @@
       <workItem from="1695574371642" duration="3309000" />
       <workItem from="1695598395845" duration="118000" />
       <workItem from="1695674532314" duration="1757000" />
+      <workItem from="1695691817495" duration="763000" />
+      <workItem from="1695729437990" duration="3079000" />
     </task>
     <servers />
   </component>
