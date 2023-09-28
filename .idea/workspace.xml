@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClassWork/NameClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/ArrayListInsertDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassWorkTest/NameClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/KissDry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/KissDryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassWork/NameClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork/NameClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ClassWorkTest/NameClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ClassWorkTest/NameClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,34 +122,8 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned">
-    <configuration name="MultiArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.MultiArrayList" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dietel.ChapterSeven.Polling" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dietel.ChapterSeven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.KissDryTest">
+    <configuration name="KissDryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +132,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.ConcatTwoArraysTest" />
-      <option name="METHOD_NAME" value="testThatReturned_Array_willBeAddition_ofTwoArray" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.KissDryTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KissDryTest.testThatGivenWordWillBeReturnedWithGivenIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Minute25Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Minute25Test" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.KissDryTest" />
+      <option name="METHOD_NAME" value="testThatGivenWordWillBeReturnedWithGivenIndex" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,13 +194,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NameClassTest.testThatTheSumOfTheNumericWillBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassWorkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ClassWorkTest" />
+      <option name="MAIN_CLASS_NAME" value="ClassWorkTest.NameClassTest" />
+      <option name="METHOD_NAME" value="testThatTheSumOfTheNumericWillBeReturned" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KissDryTest" />
+        <item itemvalue="TestNG.KissDryTest.testThatGivenWordWillBeReturnedWithGivenIndex" />
+        <item itemvalue="TestNG.NameClassTest.testThatTheSumOfTheNumericWillBeReturned" />
         <item itemvalue="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned" />
         <item itemvalue="TestNG.NameClassTest.testThatNameInitialWithNameIsReturned_again" />
-        <item itemvalue="Application.Polling" />
-        <item itemvalue="TestNG.ConcatTwoArraysTest.testThatReturned_Array_willBeAddition_ofTwoArray" />
-        <item itemvalue="Application.MultiArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +443,8 @@
       <workItem from="1695598395845" duration="118000" />
       <workItem from="1695674532314" duration="1757000" />
       <workItem from="1695691817495" duration="763000" />
-      <workItem from="1695729437990" duration="3079000" />
+      <workItem from="1695729437990" duration="6282000" />
+      <workItem from="1695889532637" duration="1239000" />
     </task>
     <servers />
   </component>

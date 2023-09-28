@@ -15,4 +15,14 @@ public class NameClass {
 
         return correctName;
     }
+
+    public static int getNumericTotal(String alphaNumeric) {
+        int total = 0;
+
+        for(int counter = 0; counter < alphaNumeric.length(); counter++)
+            if ((alphaNumeric.charAt(counter) + "").matches("[0-9]"))
+                total += Integer.parseInt(alphaNumeric.charAt(counter)+"");
+
+        return total;
+    }
 }

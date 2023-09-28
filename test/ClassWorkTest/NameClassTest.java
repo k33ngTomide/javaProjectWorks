@@ -18,4 +18,10 @@ public class NameClassTest {
 
         assertEquals("F.M. Adebayo", actual);
     }
+
+    @Test void testThatTheSumOfTheNumericWillBeReturned(){
+        int actual = NameClass.getNumericTotal("A12B-7ckdt59");
+
+        assertEquals(17, actual);
+    }
 }
