@@ -22,9 +22,9 @@ public class MenstrualApp {
                 +++++ If Your Cycle Is IRREGULAR, Consult your Doctor.
                 
                 +++++ The Output of this application should be used alongside your personal
-                      body Symptoms to get the near perfect predictions.
+                      body Symptoms to get the perfect predictions.
                       
-                +++++ The output depends on the inputs, Kindly Input correct Information.
+                +++++ The output depends on the dates user input, Kindly Input correct Information.
                       
                 """);
 
@@ -55,6 +55,7 @@ public class MenstrualApp {
                 Enter the date your last Period started (Format: yyyy-mm-dd)
                 """);
         try{
+            validateDate(dateOfLastPeriod);
             int cycleLength = Integer.parseInt(input("Enter your cycle length "));
             int flowDays = Integer.parseInt(input("Enter your flow days"));
             String design = "!".repeat(50);
@@ -70,10 +71,15 @@ public class MenstrualApp {
                                     dateOfLastPeriod,cycleLength,flowDays), flowDays),
                     design));
             startInput();
-        } catch (IllegalArgumentException | InputMismatchException error){
+        } catch (IllegalArgumentException | InputMismatchException | NullPointerException error){
             display(error.getMessage());
             safePeriod();
         }
+    }
+
+    private static void validateDate(String dateOfLastPeriod) {
+        if (!dateOfLastPeriod.startsWith("2023"))
+            throw new IllegalArgumentException("Invalid date");
     }
 
     private static void ovulationPeriod() {
@@ -81,6 +87,7 @@ public class MenstrualApp {
                 Enter the date your last Period started (Format: yyyy-mm-dd)
                 """);
         try{
+            validateDate(dateOfLastPeriod);
             int cycleLength = Integer.parseInt(input("Enter your cycle length "));
             int flowDays = Integer.parseInt(input("Enter your flow days"));
             String design = "*".repeat(50);
@@ -93,7 +100,7 @@ public class MenstrualApp {
                     menstrualCalculator.getOvulationDay(dateOfLastPeriod, cycleLength, flowDays),
                     design));
             startInput();
-        } catch (IllegalArgumentException error) {
+        } catch (IllegalArgumentException | NullPointerException error) {
             display(error.getMessage());
             ovulationPeriod();
         }
@@ -103,6 +110,7 @@ public class MenstrualApp {
         String ovulationDate = input("Enter your Ovulation Date (Format: yyyy-mm-dd)");
 
         try{
+            validateDate(ovulationDate);
             String design = "*".repeat(50);
             display(String.format("""
                             %s
@@ -113,7 +121,7 @@ public class MenstrualApp {
                     design, menstrualCalculator.getStartOfFertilityDate(ovulationDate),
                     menstrualCalculator.getEndOfFertilityDate(ovulationDate), design));
             startInput();
-        } catch (IllegalArgumentException error){
+        } catch (IllegalArgumentException | NullPointerException error){
             display(error.getMessage());
             fertilityPeriod();
         }
@@ -126,6 +134,7 @@ public class MenstrualApp {
                 Enter the date your last Period started (Format: yyyy-mm-dd)
                 """);
         try{
+            validateDate(dateOfLastPeriod);
             int cycleLength = Integer.parseInt(input("Enter your cycle length "));
             int flowDays = Integer.parseInt(input("Enter your flow days"));
             String design = "!".repeat(50);
@@ -139,7 +148,7 @@ public class MenstrualApp {
                     menstrualCalculator.getEndOfSafePeriod(dateOfLastPeriod, cycleLength, flowDays),
                     design));
             startInput();
-        } catch (IllegalArgumentException | InputMismatchException error){
+        } catch (IllegalArgumentException | InputMismatchException | NullPointerException error){
             display(error.getMessage());
             safePeriod();
         }

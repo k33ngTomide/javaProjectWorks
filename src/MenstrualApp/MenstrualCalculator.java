@@ -46,7 +46,7 @@ public class MenstrualCalculator {
 
             Calendar calendar = Calendar.getInstance();
             calendar.setTime(endDate);
-            calendar.add(Calendar.DAY_OF_YEAR, days);
+            calendar.add(Calendar.DAY_OF_MONTH, days);
 
             Date resultDate = calendar.getTime();
             return String.format("%s", dateFormat.format(resultDate));

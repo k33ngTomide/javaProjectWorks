@@ -1,9 +1,11 @@
 package DiaryApp;
 
+//import javax.xml.bind.annotation.XmlElement;
 import java.util.*;
 
-public class Diaries {
 
+public class Diaries {
+//    @XmlElement(name = "Diary")
     List<Diary> diaries = new ArrayList<>();
     public void add(String username, String password) {
         checkIfDiaryUsernameAlreadyExists(username);

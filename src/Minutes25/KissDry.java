@@ -5,10 +5,10 @@ public class KissDry {
 
     public static String getWord(String word, int[] indices) {
 
-        String newWord = "";
+        StringBuilder newWord = new StringBuilder();
         for (int counter = 0; counter < indices.length; counter++) {
-            newWord += word.charAt(indices[counter]);
+            newWord.append(word.charAt(indices[counter]));
         }
-        return newWord;
+        return newWord.toString();
     }
 }
