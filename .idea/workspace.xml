@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterEight/RandomNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/ChapterEight/SavingsAccounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/SmallNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/SmallNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryApp/Diaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Minutes25/KissDry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minutes25/KissDry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Minute25Test/KissDryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Minute25Test/KissDryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
+  <component name="RunManager" selected="Diffblue Cover.Write tests for method BasicException.&lt;init&gt;">
     <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualApp" />
       <module name="javaProjectWorks" />
@@ -154,19 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SavingsAccounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dietel.ChapterEight.SavingsAccounts" />
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dietel.ChapterEight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTakToe.TicTacToeGame" />
       <module name="javaProjectWorks" />
@@ -180,31 +162,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallNumbersTest.testThatAll_zerosAreMovedToBack" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
+          <option name="PATTERN" value="TaskTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.SmallNumbersTest" />
-      <option name="METHOD_NAME" value="testThatAll_zerosAreMovedToBack" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="TaskTest" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest.FibonacciTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Write tests for method BasicException.&lt;init&gt;" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="javaProjectWorks" />
+      <settings run-config-name="Write tests for method BasicException.&lt;init&gt;" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="DiaryApp.BasicException.&lt;init&gt;:()V" />
+      </settings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Diffblue Cover.Write tests for method BasicException.&lt;init&gt;" />
+        <item itemvalue="TestNG.FibonacciTest" />
+        <item itemvalue="Application.MenstrualApp" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.TicTacToeGame" />
-        <item itemvalue="Application.SavingsAccounts" />
-        <item itemvalue="Application.MenstrualApp" />
-        <item itemvalue="TestNG.SmallNumbersTest.testThatAll_zerosAreMovedToBack" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +428,10 @@
       <workItem from="1696084616368" duration="717000" />
       <workItem from="1696086323994" duration="1569000" />
       <workItem from="1696108385963" duration="700000" />
+      <workItem from="1696185559889" duration="2475000" />
+      <workItem from="1696249385182" duration="379000" />
+      <workItem from="1696263585003" duration="5153000" />
+      <workItem from="1696273248634" duration="1323000" />
     </task>
     <servers />
   </component>

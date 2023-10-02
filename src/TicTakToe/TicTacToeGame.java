@@ -1,6 +1,5 @@
 package TicTakToe;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -24,28 +23,15 @@ public class TicTacToeGame {
     private static void selectPlayer() {
         String userPlayer = input("""
                 TicTakToe Game
-                
+                                
                 Pick Shape of Choice:
                 1. Player 1 --- X
                 2. Player 2 --- O
-                
+                                
                 Enter AnyKey to start
                 """);
-
-//        if(userPlayer.equals("1")) {
-//            firstPlayer = new Player(userPlayer);
-//            secondPlayer = new Player();
-//        }
-//        else if (userPlayer.equals("2")) {
-//            firstPlayer = new Player(userPlayer);
-//            secondPlayer = new Player(userPlayer);
-//        }
-//        else
-//            try{new Player(userPlayer);} catch (IllegalArgumentException e){
-//                display(e.getMessage());
-//
-//            }
     }
+
 
     private static void gameMoves() {
         int count = 1;
@@ -56,27 +42,32 @@ public class TicTacToeGame {
                 break;
             }
 
-            if (count % 2 != 0)
-                currentPlayer = firstPlayer.getPlayerNumber();
-            else
-                currentPlayer = secondPlayer.getPlayerNumber();
-
-
-            try{
-                String turn = "Player " + currentPlayer + " turn";
-                String playMove = input(turn + "\nEnter a spot from 1 to 9: ");
-
-                board.move(currentPlayer, playMove);
-                String output = String.valueOf(board.printBoard());
-                display(output);
-                winner = board.checkWinner();
-                count++;
-            }
-            catch(IllegalArgumentException error){
-                display(error.getMessage());
-                gameMoves();
-            }
+            selectPlayer(count);
+            count = makeMove(count);
         }
+    }
+
+    private static int makeMove(int count) {
+        try{
+            String turn = "Player " + currentPlayer + " turn";
+            String playMove = input(turn + "\nEnter a spot from 1 to 9: ");
+
+            board.move(currentPlayer, playMove);
+            String output = String.valueOf(board.printBoard());
+            display(output);
+            winner = board.checkWinner();
+            count++;
+        }
+        catch(IllegalArgumentException error){
+            display(error.getMessage());
+            gameMoves();
+        }
+        return count;
+    }
+
+    private static void selectPlayer(int count) {
+        if (count % 2 != 0) currentPlayer = firstPlayer.getPlayerNumber();
+        else currentPlayer = secondPlayer.getPlayerNumber();
     }
 
     private static String input(String prompt){

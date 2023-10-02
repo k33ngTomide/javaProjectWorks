@@ -4,6 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class MenstrualCalculator {
 
@@ -55,5 +56,6 @@ public class MenstrualCalculator {
             throw new IllegalArgumentException(
                     "Date format is Invalid. Correct Format ('yyyy-mm-dd')");
         }
+
     }
 }
