@@ -5,13 +5,16 @@ import java.util.InputMismatchException;
 
 public class MenstrualApp {
 
-    private static MenstrualCalculator menstrualCalculator = new MenstrualCalculator();
+    private static MenstrualCalculator menstrualCalculator;
 
     public static void main(String[] args) {
         welcome();
-        startInput();
+        firstDisplay();
+        startApplication();
 
     }
+
+
 
     private static void welcome() {
         display("""
@@ -30,7 +33,48 @@ public class MenstrualApp {
 
     }
 
-    private static void startInput() {
+    private static void firstDisplay() {
+        String userInput =  input("""
+                Enter:
+                1. Input all Menstrual Information
+                2. Exit""");
+
+        switch (userInput) {
+            case "1" -> collectInput();
+            case "2" -> exitApplication();
+            default -> {
+                display("Invalid Input");
+                firstDisplay();
+            }
+        }
+    }
+
+    private static void collectInput() {
+        try{
+            String startDate = input("Enter the date your last period started: ");
+            int numberOfFlowDays = Integer.parseInt(input("Enter the normal number of days of your flow: "));
+            int cycleLength = Integer.parseInt(input("Enter "));
+
+            validateDate(startDate);
+            validateInput(numberOfFlowDays, cycleLength);
+
+            menstrualCalculator = new MenstrualCalculator(startDate, cycleLength, numberOfFlowDays);
+        }
+        catch(IllegalArgumentException error){display(error.getMessage());}
+        catch (InputMismatchException error){
+            display("Invalid Input");
+        }
+
+    }
+
+    private static void validateInput(int numberOfFlowDays, int cycleLength) {
+        if (numberOfFlowDays > 7 || numberOfFlowDays <= 3)
+            throw new IllegalArgumentException("Number of days of flow must be between 21 and 35");
+        if(cycleLength > 35 || cycleLength < 21)
+            throw new IllegalArgumentException("Cycle length must be between 21 and 35");
+    }
+
+    private static void startApplication() {
         String userInput = input("""
                                         What Do you want to do?
                                         1. Know Next Period Date.
@@ -51,13 +95,8 @@ public class MenstrualApp {
     }
 
     private static void nextPeriod() {
-        String dateOfLastPeriod = input("""
-                Enter the date your last Period started (Format: yyyy-mm-dd)
-                """);
+
         try{
-            validateDate(dateOfLastPeriod);
-            int cycleLength = Integer.parseInt(input("Enter your cycle length "));
-            int flowDays = Integer.parseInt(input("Enter your flow days"));
             String design = "!".repeat(50);
             display(String.format("""
                             %s
@@ -65,12 +104,10 @@ public class MenstrualApp {
                             Next Period End:  %s
                             %s
                             """,
-                    design, menstrualCalculator.getStartDateOfNextPeriod(dateOfLastPeriod, cycleLength, flowDays),
-                    menstrualCalculator.getEndDateOfNextPeriod(
-                            menstrualCalculator.getStartDateOfNextPeriod(
-                                    dateOfLastPeriod,cycleLength,flowDays), flowDays),
+                    design, menstrualCalculator.getStartDateOfNextPeriod(),
+                    menstrualCalculator.getEndDateOfNextPeriod(),
                     design));
-            startInput();
+            startApplication();
         } catch (IllegalArgumentException | InputMismatchException | NullPointerException error){
             display(error.getMessage());
             safePeriod();
@@ -83,13 +120,7 @@ public class MenstrualApp {
     }
 
     private static void ovulationPeriod() {
-        String dateOfLastPeriod = input("""
-                Enter the date your last Period started (Format: yyyy-mm-dd)
-                """);
         try{
-            validateDate(dateOfLastPeriod);
-            int cycleLength = Integer.parseInt(input("Enter your cycle length "));
-            int flowDays = Integer.parseInt(input("Enter your flow days"));
             String design = "*".repeat(50);
             display(String.format("""
                             %s
@@ -97,9 +128,9 @@ public class MenstrualApp {
                             %s
                             """,
                     design,
-                    menstrualCalculator.getOvulationDay(dateOfLastPeriod, cycleLength, flowDays),
+                    menstrualCalculator.getOvulationDay(),
                     design));
-            startInput();
+            startApplication();
         } catch (IllegalArgumentException | NullPointerException error) {
             display(error.getMessage());
             ovulationPeriod();
@@ -118,9 +149,9 @@ public class MenstrualApp {
                             Fertility Period End:  %s
                             %s
                             """,
-                    design, menstrualCalculator.getStartOfFertilityDate(ovulationDate),
-                    menstrualCalculator.getEndOfFertilityDate(ovulationDate), design));
-            startInput();
+                    design, menstrualCalculator.getStartOfFertilityDate(),
+                    menstrualCalculator.getEndOfFertilityDate(), design));
+            startApplication();
         } catch (IllegalArgumentException | NullPointerException error){
             display(error.getMessage());
             fertilityPeriod();
@@ -144,10 +175,10 @@ public class MenstrualApp {
                             Safe Period End:  %s
                             %s
                             """,
-                    design, menstrualCalculator.getStartOfSafePeriod(dateOfLastPeriod, flowDays),
-                    menstrualCalculator.getEndOfSafePeriod(dateOfLastPeriod, cycleLength, flowDays),
+                    design, menstrualCalculator.getStartOfSafePeriod(),
+                    menstrualCalculator.getEndOfSafePeriod(),
                     design));
-            startInput();
+            startApplication();
         } catch (IllegalArgumentException | InputMismatchException | NullPointerException error){
             display(error.getMessage());
             safePeriod();
@@ -161,7 +192,7 @@ public class MenstrualApp {
 
     private static void invalidInput() {
         display("Invalid Input");
-        startInput();
+        startApplication();
     }
 
     private static void display(String message) {

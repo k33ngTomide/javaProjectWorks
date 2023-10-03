@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTakToe/TicTacToeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TaskTest/FibonacciTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MenstrualAppTest/MenstrualCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MenstrualAppTest/MenstrualCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for method BasicException.&lt;init&gt;">
+  <component name="RunManager" selected="Application.MenstrualApp">
     <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualApp" />
       <module name="javaProjectWorks" />
@@ -149,15 +149,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTakToe.TicTacToeGame" />
+    <configuration name="MenstrualCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTakToe.*" />
+          <option name="PATTERN" value="MenstrualAppTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="MenstrualAppTest" />
+      <option name="MAIN_CLASS_NAME" value="MenstrualAppTest.MenstrualCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenstrualApp" />
+        <item itemvalue="JUnit.MenstrualCalculatorTest" />
         <item itemvalue="Diffblue Cover.Write tests for method BasicException.&lt;init&gt;" />
         <item itemvalue="TestNG.FibonacciTest" />
-        <item itemvalue="Application.MenstrualApp" />
         <item itemvalue="Application.RandomNumbers" />
-        <item itemvalue="Application.TicTacToeGame" />
       </list>
     </recent_temporary>
   </component>
@@ -432,6 +434,9 @@
       <workItem from="1696249385182" duration="379000" />
       <workItem from="1696263585003" duration="5153000" />
       <workItem from="1696273248634" duration="1323000" />
+      <workItem from="1696287556655" duration="595000" />
+      <workItem from="1696289539005" duration="1172000" />
+      <workItem from="1696317547590" duration="3652000" />
     </task>
     <servers />
   </component>

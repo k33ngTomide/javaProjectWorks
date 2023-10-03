@@ -12,44 +12,41 @@ public class MenstrualCalculatorTest {
     private MenstrualCalculator menstrualCalculator;
     @BeforeEach
     public void setUp(){
-        menstrualCalculator = new MenstrualCalculator();
+        menstrualCalculator =
+                new MenstrualCalculator("2023-09-12", 28, 6);
     }
     @Test
     public void testThatUserCanGetOvulationPeriod(){
-        String ovulationDate = menstrualCalculator.getOvulationDay(
-                "2023-09-12", 28, 6);
+        String ovulationDate = menstrualCalculator.getOvulationDay();
 
         assertEquals("2023-09-29", ovulationDate);
     }
 
     @Test
     public void testThatUserCanGetFertilityPeriod(){
-        String startOfFertilityDate = menstrualCalculator.getStartOfFertilityDate("2023-09-29");
+        String startOfFertilityDate = menstrualCalculator.getStartOfFertilityDate();
         assertEquals("2023-09-27", startOfFertilityDate);
 
-        String endOfFertilityDate = menstrualCalculator.getEndOfFertilityDate("2023-09-29");
+        String endOfFertilityDate = menstrualCalculator.getEndOfFertilityDate();
         assertEquals("2023-10-01", endOfFertilityDate);
     }
 
     @Test
     public void testThatUserCanGetPredictedDatesOfNextPeriod(){
-        String startDateOfNextPeriod = menstrualCalculator.getStartDateOfNextPeriod(
-                "2023-09-12", 28, 6);
+        String startDateOfNextPeriod = menstrualCalculator.getStartDateOfNextPeriod();
         assertEquals("2023-10-16", startDateOfNextPeriod);
 
-        String endDateOfNextPeriod = menstrualCalculator.getEndDateOfNextPeriod(startDateOfNextPeriod, 6);
+        String endDateOfNextPeriod = menstrualCalculator.getEndDateOfNextPeriod();
         assertEquals("2023-10-22", endDateOfNextPeriod);
 
     }
 
     @Test
     public void testThatUserCanGetSafePeriod(){
-        String startDateSafePeriod = menstrualCalculator.getStartOfSafePeriod(
-                "2023-09-12", 6);
+        String startDateSafePeriod = menstrualCalculator.getStartOfSafePeriod();
         assertEquals("2023-09-19", startDateSafePeriod);
 
-        String endDateSafePeriod = menstrualCalculator.getEndOfSafePeriod(
-                "2023-09-12", 28, 6);
+        String endDateSafePeriod = menstrualCalculator.getEndOfSafePeriod();
         assertEquals("2023-09-26", endDateSafePeriod);
     }
 }

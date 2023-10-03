@@ -4,39 +4,48 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Scanner;
 
 public class MenstrualCalculator {
 
+    private String dateLastPeriodStarted;
+    private int cycleLength;
+    private int flowDays;
 
-    public String getOvulationDay(String dateLastPeriodStarted, int cycleLength, int flowDays) {
+    public MenstrualCalculator(String dateLastPeriodStarted, int cycleLength, int flowDays){
+        this.dateLastPeriodStarted = dateLastPeriodStarted;
+        this.cycleLength = cycleLength;
+        this.flowDays = flowDays;
+    }
+
+
+    public String getOvulationDay() {
         int daysToOvulation = (cycleLength + flowDays) / 2;
         return addDaysToDate(dateLastPeriodStarted, daysToOvulation);
     }
 
 
-    public String getStartOfFertilityDate(String ovulationDate) {
-        return addDaysToDate(ovulationDate, -2);
+    public String getStartOfFertilityDate() {
+        return addDaysToDate(getOvulationDay(), -2);
     }
-    public String getEndOfFertilityDate(String ovulationDate) {
-        return addDaysToDate(ovulationDate, 2);
-    }
-
-    public String getStartDateOfNextPeriod(String dateLastPeriodStarted, int cycleLength, int flowDays) {
-        int fullCycle = cycleLength + flowDays;
-        return addDaysToDate(dateLastPeriodStarted, fullCycle);
+    public String getEndOfFertilityDate() {
+        return addDaysToDate(getOvulationDay(), 2);
     }
 
-    public String getEndDateOfNextPeriod(String startDateOfNextPeriod, int flowDays) {
-        return addDaysToDate(startDateOfNextPeriod, flowDays);
+    public String getStartDateOfNextPeriod() {
+        int fullCycle = getCycleLength() + getFlowDays();
+        return addDaysToDate(getDateLastPeriodStarted(), fullCycle);
     }
 
-    public String getStartOfSafePeriod(String dateLastPeriodStarted, int numberOfFlowDays) {
-        return addDaysToDate(dateLastPeriodStarted, numberOfFlowDays + 1);
+    public String getEndDateOfNextPeriod() {
+        return addDaysToDate(getStartDateOfNextPeriod(), flowDays);
     }
 
-    public String getEndOfSafePeriod(String dateLastPeriodStart, int cycleLength, int flowDays){
-        String ovulationDate = getOvulationDay(dateLastPeriodStart, cycleLength, flowDays);
+    public String getStartOfSafePeriod() {
+        return addDaysToDate(getDateLastPeriodStarted(), getFlowDays() + 1);
+    }
+
+    public String getEndOfSafePeriod(){
+        String ovulationDate = getOvulationDay();
         return addDaysToDate(ovulationDate, -3);
     }
 
@@ -57,5 +66,18 @@ public class MenstrualCalculator {
                     "Date format is Invalid. Correct Format ('yyyy-mm-dd')");
         }
 
+    }
+
+
+    public String getDateLastPeriodStarted() {
+        return dateLastPeriodStarted;
+    }
+
+    public int getCycleLength() {
+        return cycleLength;
+    }
+
+    public int getFlowDays() {
+        return flowDays;
     }
 }
