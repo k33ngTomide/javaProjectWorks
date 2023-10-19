@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CollectionsClasses/MySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/AddDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/FrequentNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CollectionsClasses/MySetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/AddDigitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/FrequentNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/ArrayManipulations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/HashDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minutes25/MovingZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/ArrayManipulationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/HashDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Minute25Test/MovingZeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,8 +124,8 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddDigitsTest.testThatAdditionOfTheDigitWillBeReturned">
-    <configuration name="AddDigitsTest.testThatAdditionOfTheDigitWillBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual">
+    <configuration name="MovingZeroTest.testThatZerosAreMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +134,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.AddDigitsTest" />
-      <option name="METHOD_NAME" value="testThatAdditionOfTheDigitWillBeReturned" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.MovingZeroTest" />
+      <option name="METHOD_NAME" value="testThatZerosAreMoved" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayManipulationsTest.testThatTheLargestNumberIsReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Minute25Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Minute25Test" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.ArrayManipulationsTest" />
+      <option name="METHOD_NAME" value="testThatTheLargestNumberIsReturned" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequentNumbersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayManipulationsTest.testThatTheReverseWillBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -152,25 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.FrequentNumbersTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequentNumbersTest.testThatMostFrequentNumber_WillBeReturned_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.FrequentNumbersTest" />
-      <option name="METHOD_NAME" value="testThatMostFrequentNumber_WillBeReturned_" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.ArrayManipulationsTest" />
+      <option name="METHOD_NAME" value="testThatTheReverseWillBeReturned" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -178,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequentNumbersTest.testThatMost_FrequentNumber_WillBeReturned_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HashDeleteTest.testThatTheLetterBeforeHashIsRemoved" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
@@ -187,8 +186,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.FrequentNumbersTest" />
-      <option name="METHOD_NAME" value="testThatMost_FrequentNumber_WillBeReturned_" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.HashDeleteTest" />
+      <option name="METHOD_NAME" value="testThatTheLetterBeforeHashIsRemoved" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,17 +195,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySetTest.testThatNon_DuplicateOfList_willBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsClasses.*" />
+          <option name="PATTERN" value="Minute25Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CollectionsClasses" />
-      <option name="MAIN_CLASS_NAME" value="CollectionsClasses.MySetTest" />
-      <option name="METHOD_NAME" value="testThatNon_DuplicateOfList_willBeReturned" />
+      <option name="PACKAGE_NAME" value="Minute25Test" />
+      <option name="MAIN_CLASS_NAME" value="Minute25Test.HashDeleteTest" />
+      <option name="METHOD_NAME" value="testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -216,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddDigitsTest.testThatAdditionOfTheDigitWillBeReturned" />
-        <item itemvalue="TestNG.MySetTest.testThatNon_DuplicateOfList_willBeReturned" />
-        <item itemvalue="TestNG.FrequentNumbersTest" />
-        <item itemvalue="TestNG.FrequentNumbersTest.testThatMostFrequentNumber_WillBeReturned_" />
-        <item itemvalue="TestNG.FrequentNumbersTest.testThatMost_FrequentNumber_WillBeReturned_" />
+        <item itemvalue="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" />
+        <item itemvalue="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved" />
+        <item itemvalue="JUnit.MovingZeroTest.testThatZerosAreMoved" />
+        <item itemvalue="TestNG.ArrayManipulationsTest.testThatTheReverseWillBeReturned" />
+        <item itemvalue="TestNG.ArrayManipulationsTest.testThatTheLargestNumberIsReturned" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +470,16 @@
       <workItem from="1696677139068" duration="3610000" />
       <workItem from="1696749217931" duration="647000" />
       <workItem from="1696841154857" duration="2027000" />
-      <workItem from="1696874365098" duration="1368000" />
+      <workItem from="1696874365098" duration="1782000" />
+      <workItem from="1696890016813" duration="62000" />
+      <workItem from="1696925398497" duration="756000" />
+      <workItem from="1696996235409" duration="35000" />
+      <workItem from="1697271374142" duration="6500000" />
+      <workItem from="1697300698237" duration="1958000" />
+      <workItem from="1697311606107" duration="734000" />
+      <workItem from="1697318336816" duration="592000" />
+      <workItem from="1697708227121" duration="1428000" />
+      <workItem from="1697716271192" duration="1758000" />
     </task>
     <servers />
   </component>
