@@ -21,4 +21,9 @@ public class HashDelete {
         }
         return newWord;
     }
+
+    public static String implSpace(String given) {
+        String word = given.replace("&", " ").replace("%", ".    ");
+        return word;
+    }
 }

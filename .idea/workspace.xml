@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/ArrayManipulations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/HashDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Minutes25/MovingZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/ArrayManipulationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/HashDeleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Minute25Test/MovingZeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignments/UndoableStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Assignments/UndoableStringBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minutes25/HashDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minutes25/HashDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Minute25Test/HashDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Minute25Test/HashDeleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,108 +116,90 @@
       <recent name="tdd" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Assignments" />
       <recent name="contactLogApp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual">
-    <configuration name="MovingZeroTest.testThatZerosAreMoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Diffblue Cover.Write tests for method UndoableStringBuilder.append">
+    <configuration name="UndoableStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilder" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.MovingZeroTest" />
-      <option name="METHOD_NAME" value="testThatZerosAreMoved" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UndoableStringBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assignments" />
+      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UndoableStringBuilderTest.testThatAppendAddTheAvailableWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjectWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Assignments" />
+      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilderTest" />
+      <option name="METHOD_NAME" value="testThatAppendAddTheAvailableWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayManipulationsTest.testThatTheLargestNumberIsReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UndoableStringBuilderTest.testThatInsertInputsWordsInSpecifiedOffset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
+          <option name="PATTERN" value="Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.ArrayManipulationsTest" />
-      <option name="METHOD_NAME" value="testThatTheLargestNumberIsReturned" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Assignments" />
+      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilderTest" />
+      <option name="METHOD_NAME" value="testThatInsertInputsWordsInSpecifiedOffset" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayManipulationsTest.testThatTheReverseWillBeReturned" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Write tests for method UndoableStringBuilder.append" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
       <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.ArrayManipulationsTest" />
-      <option name="METHOD_NAME" value="testThatTheReverseWillBeReturned" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashDeleteTest.testThatTheLetterBeforeHashIsRemoved" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.HashDeleteTest" />
-      <option name="METHOD_NAME" value="testThatTheLetterBeforeHashIsRemoved" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaProjectWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Minute25Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Minute25Test" />
-      <option name="MAIN_CLASS_NAME" value="Minute25Test.HashDeleteTest" />
-      <option name="METHOD_NAME" value="testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <settings run-config-name="Write tests for method UndoableStringBuilder.append" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="Assignments.UndoableStringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" />
+      </settings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved_andReturnFalseIfNotEqual" />
-        <item itemvalue="TestNG.HashDeleteTest.testThatTheLetterBeforeHashIsRemoved" />
-        <item itemvalue="JUnit.MovingZeroTest.testThatZerosAreMoved" />
-        <item itemvalue="TestNG.ArrayManipulationsTest.testThatTheReverseWillBeReturned" />
-        <item itemvalue="TestNG.ArrayManipulationsTest.testThatTheLargestNumberIsReturned" />
+        <item itemvalue="Diffblue Cover.Write tests for method UndoableStringBuilder.append" />
+        <item itemvalue="Application.UndoableStringBuilder" />
+        <item itemvalue="JUnit.UndoableStringBuilderTest" />
+        <item itemvalue="JUnit.UndoableStringBuilderTest.testThatInsertInputsWordsInSpecifiedOffset" />
+        <item itemvalue="JUnit.UndoableStringBuilderTest.testThatAppendAddTheAvailableWord" />
       </list>
     </recent_temporary>
   </component>
@@ -480,6 +460,9 @@
       <workItem from="1697318336816" duration="592000" />
       <workItem from="1697708227121" duration="1428000" />
       <workItem from="1697716271192" duration="1758000" />
+      <workItem from="1697718079673" duration="1517000" />
+      <workItem from="1697751771625" duration="2774000" />
+      <workItem from="1697832704689" duration="13815000" />
     </task>
     <servers />
   </component>
