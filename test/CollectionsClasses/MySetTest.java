@@ -14,7 +14,7 @@ public class MySetTest {
         String[] value = {"water", "sand", "salt", "water", "ground"};
         List<String> given = Arrays.asList(value);
 
-        Set<String> actual = MySet.printNonDuplicates(given);
+        Set<String> actual = (Set<String>) CollectionMain.printNonDuplicates(given);
         assertEquals(Set.of("sand", "salt", "water", "ground"), actual);
     }
 }

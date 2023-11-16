@@ -1,0 +1,27 @@
+ohn.doe@example.com
+jane_doe123@gmail.com
+alice.smith@company.co.uk
+invalid.email@.com
+missing.at.symbol.com
+multiple@at@symbols.com
+no.at.symbol.com
+spaces in email@example.com
+special&characters@example.com
+user@.domain.com
+support@website.com
+user@subdomain.domain.com
+michael.smith@email.com
+missing.at.symbol.com
+multiple@at@symbols.com
+no.atsymbol.com
+spaces in email@example.com
+special&characters@example.com
+admin@website.net
+info@domain.org
+jane_doe@email.co.uk
+test.user@sub.domain.com
+support@company.com
+user123@example.com
+john.doe123@sub.domain.net
+sales@business.co
+mary.jane@email.org

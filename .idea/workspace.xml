@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237cb8aa-a340-4111-ba0a-d70cbcf7f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dietel/AccessFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dietel/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsClasses/CollectionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionsClasses/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/HSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emailVerifyApp/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emailVerifyApp/input_emails.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/emailVerifyApp/valid_emails.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/BigNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsClasses/MySet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenstrualApp/MenstrualCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CollectionsClasses/MySetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CollectionsClasses/MySetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +133,7 @@
       <recent name="ClassWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigNumbers">
+  <component name="RunManager" selected="Application.MenstrualApp">
     <configuration name="AccessFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dietel.AccessFiles" />
       <module name="javaProjectWorks" />
@@ -154,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UndoableStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilder" />
+    <configuration name="CollectionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsClasses.CollectionMain" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="CollectionsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,37 +173,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UndoableStringBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="emailVerifyApp.EmailValidator" />
       <module name="javaProjectWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignments.*" />
+          <option name="PATTERN" value="emailVerifyApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Assignments" />
-      <option name="MAIN_CLASS_NAME" value="Assignments.UndoableStringBuilderTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Write tests for method UndoableStringBuilder.append" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="MenstrualApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MenstrualApp.MenstrualApp" />
       <module name="javaProjectWorks" />
-      <settings run-config-name="Write tests for method UndoableStringBuilder.append" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>method</selection-scope>
-        <selected-element key="Assignments.UndoableStringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" />
-      </settings>
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MenstrualApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenstrualApp" />
+        <item itemvalue="Application.CollectionMain" />
+        <item itemvalue="Application.EmailValidator" />
         <item itemvalue="Application.BigNumbers" />
         <item itemvalue="Application.AccessFiles" />
-        <item itemvalue="Diffblue Cover.Write tests for method UndoableStringBuilder.append" />
-        <item itemvalue="Application.UndoableStringBuilder" />
-        <item itemvalue="JUnit.UndoableStringBuilderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +473,24 @@
       <workItem from="1698094670528" duration="5407000" />
       <workItem from="1698151729872" duration="795000" />
       <workItem from="1698179589396" duration="154000" />
-      <workItem from="1698179775961" duration="1132000" />
+      <workItem from="1698179775961" duration="4603000" />
+      <workItem from="1698223958401" duration="284000" />
+      <workItem from="1698260263338" duration="5000" />
+      <workItem from="1698275884972" duration="179000" />
+      <workItem from="1698352614968" duration="1792000" />
+      <workItem from="1698366345313" duration="854000" />
+      <workItem from="1698393063369" duration="4384000" />
+      <workItem from="1698523969651" duration="649000" />
+      <workItem from="1698609331957" duration="789000" />
+      <workItem from="1698614919294" duration="1280000" />
+      <workItem from="1698657572398" duration="599000" />
+      <workItem from="1699277631975" duration="1335000" />
+      <workItem from="1699389251861" duration="1816000" />
+      <workItem from="1699420758020" duration="36000" />
+      <workItem from="1699450961878" duration="665000" />
+      <workItem from="1699706476172" duration="757000" />
+      <workItem from="1699707905709" duration="640000" />
+      <workItem from="1699901497262" duration="1482000" />
     </task>
     <servers />
   </component>

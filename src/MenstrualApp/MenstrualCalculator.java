@@ -19,7 +19,7 @@ public class MenstrualCalculator {
 
 
     public String getOvulationDay() {
-        int daysToOvulation = (cycleLength + flowDays) / 2;
+        int daysToOvulation = (cycleLength) / 2;
         return addDaysToDate(dateLastPeriodStarted, daysToOvulation);
     }
 
